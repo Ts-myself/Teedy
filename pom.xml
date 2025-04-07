@@ -73,6 +73,12 @@
 
   <repositories>
     <repository>
+      <id>aliyun</id>
+      <url>https://maven.aliyun.com/repository/public</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+    <repository>
       <id>ApacheSnapshot</id>
       <name>Apache Repository</name>
       <url>https://repository.apache.org/content/groups/snapshots/</url>
@@ -128,6 +134,18 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
         <version>3.4.1</version>
+      </plugin>
+
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.21.2</version>
+          <configuration>
+              <rulesets>
+                  <ruleset>pmd-ruleset.xml</ruleset>
+              </rulesets>
+              <failOnViolation>true</failOnViolation>
+          </configuration>
       </plugin>
 
     </plugins>
@@ -504,5 +522,22 @@
 
     </dependencies>
   </dependencyManagement>
+  
 
+  <reporting>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-pmd-plugin</artifactId>
+              <version>3.21.2</version>
+              <reportSets>
+                  <reportSet>
+                      <reports>
+                          <report>pmd</report>
+                      </reports>
+                  </reportSet>
+              </reportSets>
+          </plugin>
+      </plugins>
+  </reporting>  
 </project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Custom PMD Ruleset"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 
+                        http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+    <description>
+        自定义规则集，仅包含与 LoC、Cyclomatic Complexity、WMC、CBO、LCOM 相关的规则。
+    </description>
+
+    <rule ref="rulesets/java/metrics.xml/CyclomaticComplexity">
+        <properties>
+            <property name="reportLevel" value="10"/>
+        </properties>
+    </rule>
+
+    <rule ref="rulesets/java/metrics.xml/WeightedMethodCount">
+        <properties>
+            <property name="reportLevel" value="20"/>
+        </properties>
+    </rule>
+
+    <rule ref="rulesets/java/design.xml/CouplingBetweenObjects">
+        <properties>
+            <property name="max" value="10"/>
+        </properties>
+    </rule>
+
+    <rule ref="rulesets/java/design.xml/LackOfCohesion">
+        <properties>
+            <property name="minimum" value="0.3"/>
+        </properties>
+    </rule>
+
+    <rule ref="rulesets/java/basic.xml/ExcessiveLength">
+        <properties>
+            <property name="minimum" value="200"/>
+        </properties>
+    </rule>
+</ruleset>
