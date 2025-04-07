@@ -148,6 +148,28 @@
           </configuration>
       </plugin>
 
+<<<<<<< HEAD
+=======
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.9</version>
+        <executions>
+        <execution>
+          <goals>
+          <goal>prepare-agent</goal>
+          </goals>
+        </execution>
+        <execution>
+          <id>report</id>
+          <phase>test</phase>
+          <goals>
+          <goal>report</goal>
+          </goals>
+          </execution>
+        </executions>
+      </plugin>
+>>>>>>> lab08
     </plugins>
   </build>
 
@@ -520,11 +542,18 @@
         <version>${com.levigo.jbig2.levigo-jbig2-imageio.version}</version>
       </dependency>
 
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>5.7.1</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
   
 
   <reporting>
+<<<<<<< HEAD
       <plugins>
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -540,4 +569,53 @@
           </plugin>
       </plugins>
   </reporting>  
+=======
+    <plugins>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.21.2</version>
+          <reportSets>
+              <reportSet>
+                  <reports>
+                      <report>pmd</report>
+                  </reports>
+              </reportSet>
+          </reportSets>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>3.0.0</version>
+        <reportSets>
+          <reportSet>
+          <id>aggregate</id>
+          <inherited>false</inherited>
+          <reports>
+          <report>report</report>
+          </reports>
+          <configuration>
+          <aggregate>true</aggregate>
+          </configuration>
+          </reportSet>
+        </reportSets>
+      </plugin>
+
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.9</version>
+        <reportSets>
+          <reportSet>
+          <id>aggregate</id>
+          <inherited>false</inherited>
+          <reports>
+          <report>report-aggregate</report>
+          </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
+>>>>>>> lab08
 </project>
