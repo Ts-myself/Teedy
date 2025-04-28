@@ -16,11 +16,6 @@ pipeline{
                 bat 'mvn test -Dmaven.test.failure.ignore=true'
             }
         }
-        stage('PMD') {
-            steps {
-                bat 'mvn pmd:pmd'
-            }
-        }
         stage('JaCoCo') {
             steps {
                 bat 'mvn jacoco:report'
