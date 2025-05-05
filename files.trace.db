@@ -1,3 +1,72 @@
 2025-03-10 15:26:51 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_CONFIG" not found; SQL statement:
 select c.CFG_VALUE_C from T_CONFIG c where c.CFG_ID_C='DB_VERSION' [42102-199]
+2025-05-05 20:01:17 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
+2025-05-05 20:01:29 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
+2025-05-05 20:06:26 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
+2025-05-05 20:31:32 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
+2025-05-05 20:38:57 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
+2025-05-05 20:39:08 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
+2025-05-05 20:51:10 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_USERNAME_C=? and urr1_0.URR_STATUS_C=? [42102-199]
+2025-05-05 20:57:28 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_USERNAME_C=? and urr1_0.URR_STATUS_C=? [42102-199]
+2025-05-05 20:57:33 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_USERNAME_C=? and urr1_0.URR_STATUS_C=? [42102-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE CACHED TABLE T_USER_REGISTRATION_REQUEST ( [*]"; expected "identifier"; SQL statement:
+create cached table T_USER_REGISTRATION_REQUEST ( [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  URR_ID_C[*] VARCHAR(36) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
+  URR_ID_C varchar(36) not null, [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  URR_USERNAME_C[*] VARCHAR(50) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
+  URR_USERNAME_C varchar(50) not null, [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  URR_PASSWORD_C[*] VARCHAR(60) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
+  URR_PASSWORD_C varchar(60) not null, [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  URR_EMAIL_C[*] VARCHAR(100) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
+  URR_EMAIL_C varchar(100) not null, [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  URR_CREATEDATE_D[*] DATETIME NOT NULL, "; expected "UPDATE, USE"; SQL statement:
+  URR_CREATEDATE_D datetime not null, [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  URR_PROCESSDATE_D[*] DATETIME, "; expected "UPDATE, USE"; SQL statement:
+  URR_PROCESSDATE_D datetime, [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  URR_PROCESSEDBY_C[*] VARCHAR(36), "; expected "UPDATE, USE"; SQL statement:
+  URR_PROCESSEDBY_C varchar(36), [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  URR_STATUS_C[*] VARCHAR(10) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
+  URR_STATUS_C varchar(10) not null, [42001-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "  PRIMARY[*] KEY (URR_ID_C) "; SQL statement:
+  primary key (URR_ID_C) [42000-199]
+2025-05-05 21:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement ")[*];"; SQL statement:
+); [42000-199]
+2025-05-05 21:03:11 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_USERNAME_C=? and urr1_0.URR_STATUS_C=? [42102-199]
+2025-05-05 21:07:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_USERNAME_C=? and urr1_0.URR_STATUS_C=? [42102-199]
+2025-05-05 21:27:08 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
+select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_USERNAME_C=? and urr1_0.URR_STATUS_C=? [42102-199]

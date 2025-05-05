@@ -28,13 +28,13 @@ public class EncryptionUtil {
      * Salt.
      */
     private static final String SALT = "LEpxZmm2SMu2PeKzPNrar2rhVAS6LrrgvXKeL9uyXC4vgKHg";
-    
+
     static {
         // Initialize Bouncy Castle provider
         Security.insertProviderAt(new BouncyCastleProvider(), 1);
         Security.removeProvider("SunRsaSign");
     }
-    
+
     /**
      * Generate a private key.
      * 
@@ -48,14 +48,14 @@ public class EncryptionUtil {
             throw new RuntimeException(e);
         }
     }
-    
+
     /**
      * Decrypt an InputStream using the specified private key.
      * 
-     * @param is InputStream to encrypt
+     * @param is         InputStream to encrypt
      * @param privateKey Private key
      * @return Encrypted stream
-     * @throws Exception  e
+     * @throws Exception e
      */
     public static InputStream decryptInputStream(InputStream is, String privateKey) throws Exception {
         return new CipherInputStream(is, getCipher(privateKey, Cipher.DECRYPT_MODE));
@@ -64,7 +64,7 @@ public class EncryptionUtil {
     /**
      * Decrypt a file to a temporary file using the specified private key.
      *
-     * @param file Encrypted file
+     * @param file       Encrypted file
      * @param privateKey Private key
      * @return Decrypted temporary file
      * @throws Exception e
@@ -77,7 +77,8 @@ public class EncryptionUtil {
 
         Path tmpFile = AppContext.getInstance().getFileService().createTemporaryFile();
         try (InputStream is = Files.newInputStream(file)) {
-            Files.copy(new CipherInputStream(is, getCipher(privateKey, Cipher.DECRYPT_MODE)), tmpFile, StandardCopyOption.REPLACE_EXISTING);
+            Files.copy(new CipherInputStream(is, getCipher(privateKey, Cipher.DECRYPT_MODE)), tmpFile,
+                    StandardCopyOption.REPLACE_EXISTING);
         }
         return tmpFile;
     }
@@ -95,12 +96,12 @@ public class EncryptionUtil {
         }
         return getCipher(privateKey, Cipher.ENCRYPT_MODE);
     }
-    
+
     /**
      * Initialize a Cipher.
      * 
      * @param privateKey Private key
-     * @param mode Mode (encrypt or decrypt)
+     * @param mode       Mode (encrypt or decrypt)
      * @return Cipher
      * @throws Exception e
      */
@@ -111,5 +112,31 @@ public class EncryptionUtil {
         Cipher cipher = Cipher.getInstance("AES/CTR/NOPADDING");
         cipher.init(mode, desKey);
         return cipher;
+    }
+
+    /**
+     * Hash a password.
+     * 
+     * @param password Clear password
+     * @return Hashed password
+     */
+    public static String hashPassword(String password) {
+        try {
+            // Using MessageDigest for SHA-256 hashing instead of BCrypt
+            java.security.MessageDigest md = java.security.MessageDigest.getInstance("SHA-256");
+            byte[] hash = md.digest(password.getBytes());
+
+            // Convert to hex string
+            StringBuilder hexString = new StringBuilder();
+            for (byte b : hash) {
+                String hex = Integer.toHexString(0xff & b);
+                if (hex.length() == 1)
+                    hexString.append('0');
+                hexString.append(hex);
+            }
+            return hexString.toString();
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException("Failed to hash password", e);
+        }
     }
 }

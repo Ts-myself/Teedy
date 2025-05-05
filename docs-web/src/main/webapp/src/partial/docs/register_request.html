@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title" translate="register_request.title"></h3>
+            </div>
+            <div class="panel-body">
+                <form name="registerForm" novalidate>
+                    <div class="form-group"
+                        ng-class="{ 'has-error': registerForm.username.$invalid && registerForm.username.$dirty }">
+                        <label translate="register_request.username"></label>
+                        <input type="text" class="form-control" name="username" ng-model="user.username" required
+                            placeholder="{{ 'register_request.placeholder_username' | translate }}">
+                        <span class="help-block"
+                            ng-show="registerForm.username.$invalid && registerForm.username.$dirty">
+                            <span translate="validation.required"></span>
+                        </span>
+                    </div>
+
+                    <div class="form-group"
+                        ng-class="{ 'has-error': registerForm.email.$invalid && registerForm.email.$dirty }">
+                        <label translate="register_request.email"></label>
+                        <input type="email" class="form-control" name="email" ng-model="user.email" required
+                            placeholder="{{ 'register_request.placeholder_email' | translate }}">
+                        <span class="help-block" ng-show="registerForm.email.$invalid && registerForm.email.$dirty">
+                            <span translate="validation.required_email"></span>
+                        </span>
+                    </div>
+
+                    <div class="form-group"
+                        ng-class="{ 'has-error': registerForm.password.$invalid && registerForm.password.$dirty }">
+                        <label translate="register_request.password"></label>
+                        <input type="password" class="form-control" name="password" ng-model="user.password" required
+                            placeholder="{{ 'register_request.placeholder_password' | translate }}">
+                        <span class="help-block"
+                            ng-show="registerForm.password.$invalid && registerForm.password.$dirty">
+                            <span translate="validation.required"></span>
+                        </span>
+                    </div>
+
+                    <div class="form-group"
+                        ng-class="{ 'has-error': user.password != user.passwordconfirm && registerForm.passwordconfirm.$dirty }">
+                        <label translate="register_request.password_confirm"></label>
+                        <input type="password" class="form-control" name="passwordconfirm"
+                            ng-model="user.passwordconfirm" required
+                            placeholder="{{ 'register_request.placeholder_password_confirm' | translate }}">
+                        <span class="help-block"
+                            ng-show="user.password != user.passwordconfirm && registerForm.passwordconfirm.$dirty">
+                            <span translate="validation.password_mismatch"></span>
+                        </span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block" ng-click="submitRegistration()"
+                        ng-disabled="registerForm.$invalid || user.password != user.passwordconfirm"
+                        translate="register_request.submit"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

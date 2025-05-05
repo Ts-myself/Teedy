@@ -55,11 +55,12 @@ public class EmailUtil {
      * 
      * @param templateName Template name
      * @param paramRootMap Map of Freemarker parameters
-     * @param locale Locale
+     * @param locale       Locale
      * @return Template as string
      * @throws Exception e
      */
-    private static String getFormattedHtml(String templateName, Map<String, Object> paramRootMap, Locale locale) throws Exception {
+    private static String getFormattedHtml(String templateName, Map<String, Object> paramRootMap, Locale locale)
+            throws Exception {
         Configuration cfg = new Configuration(Configuration.VERSION_2_3_23);
         cfg.setClassForTemplateLoading(EmailUtil.class, "/email_template");
         cfg.setObjectWrapper(new DefaultObjectWrapperBuilder(Configuration.VERSION_2_3_23).build());
@@ -68,23 +69,24 @@ public class EmailUtil {
                 new DefaultObjectWrapperBuilder(Configuration.VERSION_2_3_23).build()));
         StringWriter sw = new StringWriter();
         template.process(paramRootMap, sw);
-        
+
         return sw.toString();
     }
-    
+
     /**
      * Sending an email to a user.
      * 
-     * @param templateName Template name
+     * @param templateName  Template name
      * @param recipientUser Recipient user
-     * @param subject Email subject
-     * @param paramMap Email parameters
+     * @param subject       Email subject
+     * @param paramMap      Email parameters
      */
-    private static void sendEmail(String templateName, UserDto recipientUser, String subject, Map<String, Object> paramMap) {
+    private static void sendEmail(String templateName, UserDto recipientUser, String subject,
+            Map<String, Object> paramMap) {
         if (log.isInfoEnabled()) {
             log.info("Sending email from template=" + templateName + " to user " + recipientUser);
         }
-        
+
         try {
             // Build email headers
             HtmlEmail email = new HtmlEmail();
@@ -171,9 +173,9 @@ public class EmailUtil {
     /**
      * Sending an email to a user.
      *
-     * @param templateName Template name
+     * @param templateName  Template name
      * @param recipientUser Recipient user
-     * @param paramMap Email parameters
+     * @param paramMap      Email parameters
      */
     public static void sendEmail(String templateName, UserDto recipientUser, Map<String, Object> paramMap) {
         java.util.Locale userLocale = LocaleUtil.getLocale(System.getenv(Constants.DEFAULT_LANGUAGE_ENV));
@@ -184,11 +186,11 @@ public class EmailUtil {
     /**
      * Parse an email content to be imported.
      *
-     * @param part Email part
+     * @param part        Email part
      * @param mailContent Mail content modified by side-effect
      *
      * @throws MessagingException e
-     * @throws IOException e
+     * @throws IOException        e
      */
     public static void parseMailContent(Part part, MailContent mailContent) throws MessagingException, IOException {
         Object content = part.getContent();
@@ -230,6 +232,22 @@ public class EmailUtil {
             fileContent.size = Files.size(fileContent.file);
             mailContent.fileContentList.add(fileContent);
         }
+    }
+
+    /**
+     * Validates an email address.
+     * 
+     * @param email Email to validate
+     * @return True if the email is valid
+     */
+    public static boolean validateEmail(String email) {
+        if (email == null || email.trim().isEmpty()) {
+            return false;
+        }
+
+        String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
+        java.util.regex.Pattern pattern = java.util.regex.Pattern.compile(emailRegex);
+        return pattern.matcher(email).matches();
     }
 
     /**

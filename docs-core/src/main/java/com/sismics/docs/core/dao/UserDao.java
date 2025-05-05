@@ -58,11 +58,11 @@ public class UserDao {
             return null;
         }
     }
-    
+
     /**
      * Creates a new user.
      * 
-     * @param user User to create
+     * @param user   User to create
      * @param userId User ID
      * @return User ID
      * @throws Exception e
@@ -70,7 +70,7 @@ public class UserDao {
     public String create(User user, String userId) throws Exception {
         // Create the user UUID
         user.setId(UUID.randomUUID().toString());
-        
+
         // Checks for user unicity
         EntityManager em = ThreadLocalContext.get().getEntityManager();
         Query q = em.createQuery("select u from User u where u.username = :username and u.deleteDate is null");
@@ -79,30 +79,30 @@ public class UserDao {
         if (l.size() > 0) {
             throw new Exception("AlreadyExistingUsername");
         }
-        
+
         // Create the user
         user.setCreateDate(new Date());
         user.setPassword(hashPassword(user.getPassword()));
         user.setPrivateKey(EncryptionUtil.generatePrivateKey());
         user.setStorageCurrent(0L);
         em.persist(user);
-        
+
         // Create audit log
         AuditLogUtil.create(user, AuditLogType.CREATE, userId);
-        
+
         return user.getId();
     }
-    
+
     /**
      * Updates a user.
      * 
-     * @param user User to update
+     * @param user   User to update
      * @param userId User ID
      * @return Updated user
      */
     public User update(User user, String userId) {
         EntityManager em = ThreadLocalContext.get().getEntityManager();
-        
+
         // Get the user
         Query q = em.createQuery("select u from User u where u.id = :id and u.deleteDate is null");
         q.setParameter("id", user.getId());
@@ -117,10 +117,10 @@ public class UserDao {
 
         // Create audit log
         AuditLogUtil.create(userDb, AuditLogType.UPDATE, userId);
-        
+
         return user;
     }
-    
+
     /**
      * Updates a user's quota.
      * 
@@ -128,7 +128,7 @@ public class UserDao {
      */
     public void updateQuota(User user) {
         EntityManager em = ThreadLocalContext.get().getEntityManager();
-        
+
         // Get the user
         Query q = em.createQuery("select u from User u where u.id = :id and u.deleteDate is null");
         q.setParameter("id", user.getId());
@@ -137,17 +137,17 @@ public class UserDao {
         // Update the user
         userDb.setStorageCurrent(user.getStorageCurrent());
     }
-    
+
     /**
      * Update the user password.
      * 
-     * @param user User to update
+     * @param user   User to update
      * @param userId User ID
      * @return Updated user
      */
     public User updatePassword(User user, String userId) {
         EntityManager em = ThreadLocalContext.get().getEntityManager();
-        
+
         // Get the user
         Query q = em.createQuery("select u from User u where u.id = :id and u.deleteDate is null");
         q.setParameter("id", user.getId());
@@ -155,10 +155,10 @@ public class UserDao {
 
         // Update the user
         userDb.setPassword(hashPassword(user.getPassword()));
-        
+
         // Create audit log
         AuditLogUtil.create(userDb, AuditLogType.UPDATE, userId);
-        
+
         return user;
     }
 
@@ -216,7 +216,7 @@ public class UserDao {
             return null;
         }
     }
-    
+
     /**
      * Gets an active user by its username.
      * 
@@ -233,21 +233,38 @@ public class UserDao {
             return null;
         }
     }
-    
+
+    /**
+     * Returns an active user by its email.
+     * 
+     * @param email Email
+     * @return User
+     */
+    public User getActiveByEmail(String email) {
+        EntityManager em = ThreadLocalContext.get().getEntityManager();
+        try {
+            Query q = em.createQuery("select u from User u where u.email = :email and u.deleteDate is null");
+            q.setParameter("email", email);
+            return (User) q.getSingleResult();
+        } catch (NoResultException e) {
+            return null;
+        }
+    }
+
     /**
      * Deletes a user.
      * 
      * @param username User's username
-     * @param userId User ID
+     * @param userId   User ID
      */
     public void delete(String username, String userId) {
         EntityManager em = ThreadLocalContext.get().getEntityManager();
-            
+
         // Get the user
         Query q = em.createQuery("select u from User u where u.username = :username and u.deleteDate is null");
         q.setParameter("username", username);
         User userDb = (User) q.getSingleResult();
-        
+
         // Delete the user
         Date dateNow = new Date();
         userDb.setDeleteDate(dateNow);
@@ -256,27 +273,31 @@ public class UserDao {
         q = em.createQuery("delete from AuthenticationToken at where at.userId = :userId");
         q.setParameter("userId", userDb.getId());
         q.executeUpdate();
-        
-        q = em.createQuery("update Document d set d.deleteDate = :dateNow where d.userId = :userId and d.deleteDate is null");
+
+        q = em.createQuery(
+                "update Document d set d.deleteDate = :dateNow where d.userId = :userId and d.deleteDate is null");
         q.setParameter("userId", userDb.getId());
         q.setParameter("dateNow", dateNow);
         q.executeUpdate();
-        
-        q = em.createQuery("update File f set f.deleteDate = :dateNow where f.userId = :userId and f.deleteDate is null");
+
+        q = em.createQuery(
+                "update File f set f.deleteDate = :dateNow where f.userId = :userId and f.deleteDate is null");
         q.setParameter("userId", userDb.getId());
         q.setParameter("dateNow", dateNow);
         q.executeUpdate();
-        
-        q = em.createQuery("update Acl a set a.deleteDate = :dateNow where a.targetId = :userId and a.deleteDate is null");
+
+        q = em.createQuery(
+                "update Acl a set a.deleteDate = :dateNow where a.targetId = :userId and a.deleteDate is null");
         q.setParameter("userId", userDb.getId());
         q.setParameter("dateNow", dateNow);
         q.executeUpdate();
-        
-        q = em.createQuery("update Comment c set c.deleteDate = :dateNow where c.userId = :userId and c.deleteDate is null");
+
+        q = em.createQuery(
+                "update Comment c set c.deleteDate = :dateNow where c.userId = :userId and c.deleteDate is null");
         q.setParameter("userId", userDb.getId());
         q.setParameter("dateNow", dateNow);
         q.executeUpdate();
-        
+
         // Create audit log
         AuditLogUtil.create(userDb, AuditLogType.DELETE, userId);
     }
@@ -296,29 +317,32 @@ public class UserDao {
                 if (envBcryptWorkInt >= 4 && envBcryptWorkInt <= 31) {
                     bcryptWork = envBcryptWorkInt;
                 } else {
-                    log.warn(Constants.BCRYPT_WORK_ENV + " needs to be in range 4...31. Falling back to " + Constants.DEFAULT_BCRYPT_WORK + ".");
+                    log.warn(Constants.BCRYPT_WORK_ENV + " needs to be in range 4...31. Falling back to "
+                            + Constants.DEFAULT_BCRYPT_WORK + ".");
                 }
             } catch (NumberFormatException e) {
-                log.warn(Constants.BCRYPT_WORK_ENV + " needs to be a number in range 4...31. Falling back to " + Constants.DEFAULT_BCRYPT_WORK + ".");
+                log.warn(Constants.BCRYPT_WORK_ENV + " needs to be a number in range 4...31. Falling back to "
+                        + Constants.DEFAULT_BCRYPT_WORK + ".");
             }
         }
         return BCrypt.withDefaults().hashToString(bcryptWork, password.toCharArray());
     }
-    
+
     /**
      * Returns the list of all users.
      * 
-     * @param criteria Search criteria
+     * @param criteria     Search criteria
      * @param sortCriteria Sort criteria
      * @return List of users
      */
     public List<UserDto> findByCriteria(UserCriteria criteria, SortCriteria sortCriteria) {
         Map<String, Object> parameterMap = new HashMap<>();
         List<String> criteriaList = new ArrayList<>();
-        
-        StringBuilder sb = new StringBuilder("select u.USE_ID_C as c0, u.USE_USERNAME_C as c1, u.USE_EMAIL_C as c2, u.USE_CREATEDATE_D as c3, u.USE_STORAGECURRENT_N as c4, u.USE_STORAGEQUOTA_N as c5, u.USE_TOTPKEY_C as c6, u.USE_DISABLEDATE_D as c7");
+
+        StringBuilder sb = new StringBuilder(
+                "select u.USE_ID_C as c0, u.USE_USERNAME_C as c1, u.USE_EMAIL_C as c2, u.USE_CREATEDATE_D as c3, u.USE_STORAGECURRENT_N as c4, u.USE_STORAGEQUOTA_N as c5, u.USE_TOTPKEY_C as c6, u.USE_DISABLEDATE_D as c7");
         sb.append(" from T_USER u ");
-        
+
         // Add search criterias
         if (criteria.getSearch() != null) {
             criteriaList.add("lower(u.USE_USERNAME_C) like lower(:search)");
@@ -333,22 +357,24 @@ public class UserDao {
             parameterMap.put("userName", criteria.getUserName());
         }
         if (criteria.getGroupId() != null) {
-            sb.append(" join T_USER_GROUP ug on ug.UGP_IDUSER_C = u.USE_ID_C and ug.UGP_IDGROUP_C = :groupId and ug.UGP_DELETEDATE_D is null ");
+            sb.append(
+                    " join T_USER_GROUP ug on ug.UGP_IDUSER_C = u.USE_ID_C and ug.UGP_IDGROUP_C = :groupId and ug.UGP_DELETEDATE_D is null ");
             parameterMap.put("groupId", criteria.getGroupId());
         }
-        
+
         criteriaList.add("u.USE_DELETEDATE_D is null");
-        
+
         if (!criteriaList.isEmpty()) {
             sb.append(" where ");
             sb.append(Joiner.on(" and ").join(criteriaList));
         }
-        
+
         // Perform the search
-        QueryParam queryParam = QueryUtil.getSortedQueryParam(new QueryParam(sb.toString(), parameterMap), sortCriteria);
+        QueryParam queryParam = QueryUtil.getSortedQueryParam(new QueryParam(sb.toString(), parameterMap),
+                sortCriteria);
         @SuppressWarnings("unchecked")
         List<Object[]> l = QueryUtil.getNativeQuery(queryParam).getResultList();
-        
+
         // Assemble results
         List<UserDto> userDtoList = new ArrayList<>();
         for (Object[] o : l) {
@@ -376,7 +402,8 @@ public class UserDao {
      */
     public long getGlobalStorageCurrent() {
         EntityManager em = ThreadLocalContext.get().getEntityManager();
-        Query query = em.createNativeQuery("select sum(u.USE_STORAGECURRENT_N) from T_USER u where u.USE_DELETEDATE_D is null");
+        Query query = em
+                .createNativeQuery("select sum(u.USE_STORAGECURRENT_N) from T_USER u where u.USE_DELETEDATE_D is null");
         return ((Number) query.getSingleResult()).longValue();
     }
 
@@ -387,7 +414,8 @@ public class UserDao {
      */
     public long getActiveUserCount() {
         EntityManager em = ThreadLocalContext.get().getEntityManager();
-        Query query = em.createNativeQuery("select count(u.USE_ID_C) from T_USER u where u.USE_DELETEDATE_D is null and (u.USE_DISABLEDATE_D is null or u.USE_DISABLEDATE_D >= :fromDate and u.USE_DISABLEDATE_D < :toDate)");
+        Query query = em.createNativeQuery(
+                "select count(u.USE_ID_C) from T_USER u where u.USE_DELETEDATE_D is null and (u.USE_DISABLEDATE_D is null or u.USE_DISABLEDATE_D >= :fromDate and u.USE_DISABLEDATE_D < :toDate)");
         DateTime fromDate = DateTime.now().minusMonths(1).dayOfMonth().withMinimumValue().withTimeAtStartOfDay();
         DateTime toDate = fromDate.plusMonths(1);
         query.setParameter("fromDate", fromDate.toDate());

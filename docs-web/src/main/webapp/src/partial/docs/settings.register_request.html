@@ -1,0 +1,69 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1 translate="settings.register_request.title"></h1>
+        </div>
+
+        <!-- 页面描述 -->
+        <p class="text-muted">
+            {{ 'settings.register_request.description' | translate }}
+        </p>
+
+        <!-- 表格标题与刷新按钮 -->
+        <div class="row">
+            <div class="col-xs-6">
+                <h3>{{ 'settings.register_request.pending_requests' | translate }}</h3>
+            </div>
+            <div class="col-xs-6">
+                <button class="btn btn-default pull-right" ng-click="loadRequests()">
+                    <span class="fas fa-sync-alt"></span> {{ 'refresh' | translate }}
+                </button>
+            </div>
+        </div>
+
+        <!-- 加载中提示 -->
+        <div ng-show="loadingRequests" class="text-center">
+            <span class="fas fa-circle-notch fa-spin"></span> {{ 'loading' | translate }}
+        </div>
+
+        <!-- 无数据提示 -->
+        <div class="row" ng-if="requests.length === 0">
+            <div class="col-sm-12">
+                <p>{{ 'settings.register_request.no_requests' | translate }}</p>
+            </div>
+        </div>
+
+        <!-- 请求列表表格 -->
+        <div class="row" ng-if="requests.length > 0">
+            <div class="col-sm-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>{{ 'settings.register_request.table.username' | translate }}</th>
+                            <th>{{ 'settings.register_request.table.email' | translate }}</th>
+                            <th>{{ 'settings.register_request.table.date' | translate }}</th>
+                            <th>{{ 'settings.register_request.table.actions' | translate }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="request in requests">
+                            <td>{{ request.username }}</td>
+                            <td>{{ request.email }}</td>
+                            <td>{{ request.create_date | date: dateTimeFormat }}</td>
+                            <td>
+                                <button class="btn btn-success btn-sm" ng-click="approveRequest(request)">
+                                    <span class="fas fa-check"></span> {{ 'settings.register_request.approve' |
+                                    translate }}
+                                </button>
+                                <button class="btn btn-danger btn-sm" ng-click="rejectRequest(request)">
+                                    <span class="fas fa-times"></span> {{ 'settings.register_request.reject' | translate
+                                    }}
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

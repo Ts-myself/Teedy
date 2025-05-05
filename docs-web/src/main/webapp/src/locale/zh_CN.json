@@ -247,6 +247,19 @@
     "menu_configuration": "配置",
     "menu_inbox": "收件箱扫描",
     "menu_server_logs": "服务器日志",
+    "register_request": {
+      "title": "用户注册请求",
+      "description": "在此管理待处理的用户注册请求",
+      "pending_requests": "待处理请求",
+      "no_requests": "当前没有待处理的注册请求",
+      "request_date": "申请日期",
+      "approve": "批准",
+      "reject": "拒绝",
+      "approve_confirm_title": "批准注册请求",
+      "approve_confirm_message": "您确定要批准用户 {{username}} 的注册请求吗？",
+      "reject_confirm_title": "拒绝注册请求",
+      "reject_confirm_message": "您确定要拒绝用户 {{username}} 的注册请求吗？"
+    },
     "user": {
       "title": "用户 <small>管理</small>",
       "add_user": "添加用户",

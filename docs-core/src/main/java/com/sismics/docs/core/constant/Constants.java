@@ -14,7 +14,7 @@ public class Constants {
      * Default timezone ID.
      */
     public static final String DEFAULT_TIMEZONE_ID = "Europe/London";
-    
+
     /**
      * Administrator's default password ("admin").
      */
@@ -39,11 +39,13 @@ public class Constants {
      * Default generic user role.
      */
     public static final String DEFAULT_USER_ROLE = "user";
-    
+
     /**
      * Supported document languages.
      */
-    public static final List<String> SUPPORTED_LANGUAGES = Lists.newArrayList("eng", "fra", "ita", "deu", "spa", "por", "pol", "rus", "ukr", "ara", "hin", "chi_sim", "chi_tra", "jpn", "tha", "kor", "nld", "tur", "heb", "hun", "fin", "swe", "lav", "dan", "nor", "vie", "ces", "sqi");
+    public static final List<String> SUPPORTED_LANGUAGES = Lists.newArrayList("eng", "fra", "ita", "deu", "spa", "por",
+            "pol", "rus", "ukr", "ara", "hin", "chi_sim", "chi_tra", "jpn", "tha", "kor", "nld", "tur", "heb", "hun",
+            "fin", "swe", "lav", "dan", "nor", "vie", "ces", "sqi");
 
     /**
      * Base URL environment variable.
@@ -102,4 +104,9 @@ public class Constants {
      * mm per inch.
      */
     public static float MM_PER_INCH = 1 / (10 * 2.54f) * 72f;
+
+    /**
+     * Default theme ID.
+     */
+    public static final String DEFAULT_THEME_ID = "default";
 }
