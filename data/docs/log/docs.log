@@ -1,113 +1,55 @@
-10 Mar 2025 15:26:49,717 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-10 Mar 2025 15:26:51,460 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-10 Mar 2025 15:26:51,465 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
-10 Mar 2025 15:26:51,466 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
-10 Mar 2025 15:26:51,477 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
-10 Mar 2025 15:26:51,566 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
-10 Mar 2025 15:26:51,585 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
-10 Mar 2025 15:26:51,587 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
-10 Mar 2025 15:26:51,610 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
-10 Mar 2025 15:26:51,616 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
-10 Mar 2025 15:26:51,623 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
-10 Mar 2025 15:26:51,632 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
-10 Mar 2025 15:26:51,635 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
-10 Mar 2025 15:26:51,719 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
-10 Mar 2025 15:26:51,724 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
-10 Mar 2025 15:26:51,728 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
-10 Mar 2025 15:26:51,734 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
-10 Mar 2025 15:26:51,737 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
-10 Mar 2025 15:26:51,743 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
-10 Mar 2025 15:26:51,748 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
-10 Mar 2025 15:26:51,752 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
-10 Mar 2025 15:26:51,756 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
-10 Mar 2025 15:26:51,764 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
-10 Mar 2025 15:26:51,768 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
-10 Mar 2025 15:26:51,774 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
-10 Mar 2025 15:26:51,811 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
-10 Mar 2025 15:26:51,815 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
-10 Mar 2025 15:26:51,818 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
-10 Mar 2025 15:26:51,823 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
-10 Mar 2025 15:26:51,829 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
-10 Mar 2025 15:26:51,836 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
-10 Mar 2025 15:26:51,841 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
-10 Mar 2025 15:26:51,843 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
-10 Mar 2025 15:26:51,846 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
-10 Mar 2025 15:26:51,849 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
-10 Mar 2025 15:26:51,851 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
-10 Mar 2025 15:26:51,855 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
-10 Mar 2025 15:26:51,857 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
-10 Mar 2025 15:26:51,858 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-10 Mar 2025 15:26:51,859 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-10 Mar 2025 15:26:58,642 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-10 Mar 2025 15:26:58,862 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-10 Mar 2025 15:26:59,316 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-10 Mar 2025 15:26:59,341 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-10 Mar 2025 15:26:59,345 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-10 Mar 2025 15:27:00,095 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-10 Mar 2025 15:27:00,098 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-10 Mar 2025 15:27:33,873 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-10 Mar 2025 15:27:33,874 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-10 Mar 2025 15:27:43,799 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-10 Mar 2025 15:27:50,489 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-10 Mar 2025 15:27:50,502 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 31, executing database incremental update scripts 
-10 Mar 2025 15:27:50,503 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-10 Mar 2025 15:27:50,504 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-10 Mar 2025 15:29:02,710 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-10 Mar 2025 15:29:02,881 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-10 Mar 2025 15:29:03,323 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-10 Mar 2025 15:29:03,349 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-10 Mar 2025 15:29:03,354 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-10 Mar 2025 15:29:04,076 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-10 Mar 2025 15:29:04,079 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-10 Mar 2025 15:28:50,341 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-10 Mar 2025 15:28:50,341 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-05 5月 2025 19:45:45,287 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 19:45:49,911 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 19:45:49,914 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 31, executing database incremental update scripts 
-05 5月 2025 19:45:49,915 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 19:45:49,915 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 19:45:51,982 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 19:45:52,030 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 19:45:52,112 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 19:45:52,115 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 19:45:52,115 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 19:45:52,493 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 19:45:52,496 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-05 5月 2025 19:46:05,555 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
-05 5月 2025 19:58:04,320 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-05 5月 2025 19:58:04,321 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-05 5月 2025 20:01:07,867 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:01:12,527 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 20:01:12,532 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 31, executing database incremental update scripts 
-05 5月 2025 20:01:12,533 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 20:01:12,533 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:01:14,554 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 20:01:14,613 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 20:01:14,695 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 20:01:14,698 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 20:01:14,699 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 20:01:15,104 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 20:01:15,106 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-05 5月 2025 20:01:17,045 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:95) An exception occured, rolling back current transaction 
-jakarta.servlet.ServletException: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:410)
-	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
-	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
-	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
+09 5月 2025 20:18:31,179 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:18:31,783 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+09 5月 2025 20:18:31,785 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+09 5月 2025 20:18:31,785 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+09 5月 2025 20:18:31,789 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+09 5月 2025 20:18:31,825 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 32, executing database incremental update scripts 
+09 5月 2025 20:18:31,837 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+09 5月 2025 20:18:31,855 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+09 5月 2025 20:18:31,859 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+09 5月 2025 20:18:31,862 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+09 5月 2025 20:18:31,872 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+09 5月 2025 20:18:31,874 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+09 5月 2025 20:18:31,917 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+09 5月 2025 20:18:31,919 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+09 5月 2025 20:18:31,922 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+09 5月 2025 20:18:31,928 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+09 5月 2025 20:18:31,930 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+09 5月 2025 20:18:31,934 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+09 5月 2025 20:18:31,939 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+09 5月 2025 20:18:31,940 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+09 5月 2025 20:18:31,947 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+09 5月 2025 20:18:31,954 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+09 5月 2025 20:18:31,956 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+09 5月 2025 20:18:31,958 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+09 5月 2025 20:18:31,977 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+09 5月 2025 20:18:31,979 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+09 5月 2025 20:18:31,981 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+09 5月 2025 20:18:31,988 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+09 5月 2025 20:18:32,002 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+09 5月 2025 20:18:32,007 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+09 5月 2025 20:18:32,011 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+09 5月 2025 20:18:32,012 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+09 5月 2025 20:18:32,013 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+09 5月 2025 20:18:32,014 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+09 5月 2025 20:18:32,016 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+09 5月 2025 20:18:32,020 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+09 5月 2025 20:18:32,022 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+09 5月 2025 20:18:32,022 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-032-0.sql 
+09 5月 2025 20:18:32,024 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+09 5月 2025 20:18:32,024 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:18:33,884 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+09 5月 2025 20:18:33,940 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:132) Using file Lucene storage: ..\data\docs\lucene 
+09 5月 2025 20:18:34,010 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+09 5月 2025 20:18:34,012 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+09 5月 2025 20:18:34,013 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+09 5月 2025 20:18:34,388 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+09 5月 2025 20:18:34,389 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+09 5月 2025 20:18:49,495 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:122) Error during commit 
+jakarta.persistence.RollbackException: Error while committing the transaction
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:67)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:120)
 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
 	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
@@ -149,103 +91,158 @@ select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PAS
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+Caused by: org.hibernate.exception.DataException: could not execute statement [Value too long for column """URR_PASSWORD_C"" VARCHAR_IGNORECASE(60) NOT NULL": "CAST('e172c5654dbc12d78ce1850a4f7956ba6e5a3d2ac40f0925fc6d691ebb54f6bf' AS VARCHAR_IGNORECASE) (64)"; SQL statement:
+insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?) [22001-199]] [insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:55)
 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:187)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:152)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.lambda$list$0(JdbcSelectExecutorStandardImpl.java:102)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:227)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:164)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
-	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
-	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:200)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:361)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:168)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:93)
-	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$0(ConcreteSqmSelectQueryPlan.java:109)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:305)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:246)
-	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
-	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
-	at org.hibernate.query.Query.getResultList(Query.java:120)
-	at com.sismics.docs.core.service.UserRegistrationService.findByCriteria(UserRegistrationService.java:210)
-	at com.sismics.docs.core.service.UserRegistrationService.findByStatus(UserRegistrationService.java:180)
-	at com.sismics.docs.rest.resource.UserResource.listRegistrationRequests(UserResource.java:1240)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:134)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:177)
-	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
-	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
-	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
-	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
-	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
-	... 57 more
-Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:283)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:107)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:52)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:171)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:112)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2865)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:102)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:631)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:498)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:363)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1415)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:496)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2325)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1988)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	... 42 more
+Caused by: org.h2.jdbc.JdbcSQLDataException: Value too long for column """URR_PASSWORD_C"" VARCHAR_IGNORECASE(60) NOT NULL": "CAST('e172c5654dbc12d78ce1850a4f7956ba6e5a3d2ac40f0925fc6d691ebb54f6bf' AS VARCHAR_IGNORECASE) (64)"; SQL statement:
+insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?) [22001-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:455)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
 	at org.h2.message.DbException.get(DbException.java:205)
-	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1895)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2636)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469)
-	at org.h2.command.Parser.parseSelect(Parser.java:2440)
-	at org.h2.command.Parser.parsePrepared(Parser.java:814)
-	at org.h2.command.Parser.parse(Parser.java:788)
-	at org.h2.command.Parser.parse(Parser.java:760)
-	at org.h2.command.Parser.prepareCommand(Parser.java:683)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:150)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:177)
-	... 102 more
-05 5月 2025 20:01:29,528 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:95) An exception occured, rolling back current transaction 
-jakarta.servlet.ServletException: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:410)
-	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
-	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
-	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:441)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:824)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:175)
+	at org.h2.command.dml.Insert.update(Insert.java:132)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:280)
+	... 62 more
+09 5月 2025 20:19:01,233 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+09 5月 2025 20:28:51,866 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:122) Error during commit 
+jakarta.persistence.RollbackException: Error while committing the transaction
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:67)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:120)
 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:170)
 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:598)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.DataException: could not execute statement [Value too long for column """URR_PASSWORD_C"" VARCHAR_IGNORECASE(60) NOT NULL": "CAST('e172c5654dbc12d78ce1850a4f7956ba6e5a3d2ac40f0925fc6d691ebb54f6bf' AS VARCHAR_IGNORECASE) (64)"; SQL statement:
+insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?) [22001-199]] [insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:55)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:283)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:107)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:52)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:171)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:112)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2865)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:102)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:631)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:498)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:363)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1415)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:496)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2325)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1988)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	... 43 more
+Caused by: org.h2.jdbc.JdbcSQLDataException: Value too long for column """URR_PASSWORD_C"" VARCHAR_IGNORECASE(60) NOT NULL": "CAST('e172c5654dbc12d78ce1850a4f7956ba6e5a3d2ac40f0925fc6d691ebb54f6bf' AS VARCHAR_IGNORECASE) (64)"; SQL statement:
+insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?) [22001-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:455)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:441)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:824)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:175)
+	at org.h2.command.dml.Insert.update(Insert.java:132)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:280)
+	... 63 more
+09 5月 2025 20:31:24,917 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+09 5月 2025 20:31:24,917 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+09 5月 2025 20:32:07,272 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:32:11,911 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+09 5月 2025 20:32:11,914 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 32, new version is 32, executing database incremental update scripts 
+09 5月 2025 20:32:11,915 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+09 5月 2025 20:32:11,915 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:32:13,887 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+09 5月 2025 20:32:13,934 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:132) Using file Lucene storage: ..\data\docs\lucene 
+09 5月 2025 20:32:14,024 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:144) Checking index health and version 
+09 5月 2025 20:32:14,036 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+09 5月 2025 20:32:14,040 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+09 5月 2025 20:32:14,041 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+09 5月 2025 20:32:14,410 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+09 5月 2025 20:32:14,411 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+09 5月 2025 20:32:39,042 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:122) Error during commit 
+jakarta.persistence.RollbackException: Error while committing the transaction
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:67)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:120)
 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
 	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
@@ -287,252 +284,69 @@ select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PAS
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+Caused by: org.hibernate.exception.DataException: could not execute statement [Value too long for column """URR_PASSWORD_C"" VARCHAR_IGNORECASE(60) NOT NULL": "CAST('615ed7fb1504b0c724a296d7a69e6c7b2f9ea2c57c1d8206c5afdf392ebdfd25' AS VARCHAR_IGNORECASE) (64)"; SQL statement:
+insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?) [22001-199]] [insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:55)
 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:187)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:152)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.lambda$list$0(JdbcSelectExecutorStandardImpl.java:102)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:227)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:164)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
-	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
-	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:200)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:361)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:168)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:93)
-	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$0(ConcreteSqmSelectQueryPlan.java:109)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:305)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:246)
-	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
-	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
-	at org.hibernate.query.Query.getResultList(Query.java:120)
-	at com.sismics.docs.core.service.UserRegistrationService.findByCriteria(UserRegistrationService.java:210)
-	at com.sismics.docs.core.service.UserRegistrationService.findByStatus(UserRegistrationService.java:180)
-	at com.sismics.docs.rest.resource.UserResource.listRegistrationRequests(UserResource.java:1240)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:134)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:177)
-	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
-	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
-	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
-	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
-	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
-	... 57 more
-Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:283)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:107)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:52)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:171)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:112)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2865)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:102)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:631)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:498)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:363)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1415)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:496)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2325)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1988)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	... 42 more
+Caused by: org.h2.jdbc.JdbcSQLDataException: Value too long for column """URR_PASSWORD_C"" VARCHAR_IGNORECASE(60) NOT NULL": "CAST('615ed7fb1504b0c724a296d7a69e6c7b2f9ea2c57c1d8206c5afdf392ebdfd25' AS VARCHAR_IGNORECASE) (64)"; SQL statement:
+insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?) [22001-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:455)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
 	at org.h2.message.DbException.get(DbException.java:205)
-	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1895)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2636)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469)
-	at org.h2.command.Parser.parseSelect(Parser.java:2440)
-	at org.h2.command.Parser.parsePrepared(Parser.java:814)
-	at org.h2.command.Parser.parse(Parser.java:788)
-	at org.h2.command.Parser.parse(Parser.java:760)
-	at org.h2.command.Parser.prepareCommand(Parser.java:683)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:150)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:177)
-	... 102 more
-05 5月 2025 20:03:42,282 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
-05 5月 2025 20:06:26,912 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:95) An exception occured, rolling back current transaction 
-jakarta.servlet.ServletException: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:410)
-	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
-	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
-	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at org.eclipse.jetty.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:170)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131)
-	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:598)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223)
-	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
-	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
-	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
-	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
-	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
-	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
-	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
-	at org.eclipse.jetty.server.Server.handle(Server.java:563)
-	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
-	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
-	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
-	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
-	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
-	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
-	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:187)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:152)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.lambda$list$0(JdbcSelectExecutorStandardImpl.java:102)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:227)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:164)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
-	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
-	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:200)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:361)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:168)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:93)
-	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$0(ConcreteSqmSelectQueryPlan.java:109)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:305)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:246)
-	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
-	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
-	at org.hibernate.query.Query.getResultList(Query.java:120)
-	at com.sismics.docs.core.service.UserRegistrationService.findByCriteria(UserRegistrationService.java:210)
-	at com.sismics.docs.core.service.UserRegistrationService.findByStatus(UserRegistrationService.java:180)
-	at com.sismics.docs.rest.resource.UserResource.listRegistrationRequests(UserResource.java:1240)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:134)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:177)
-	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
-	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
-	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
-	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
-	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
-	... 53 more
-Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
-	at org.h2.message.DbException.get(DbException.java:205)
-	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1895)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2636)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469)
-	at org.h2.command.Parser.parseSelect(Parser.java:2440)
-	at org.h2.command.Parser.parsePrepared(Parser.java:814)
-	at org.h2.command.Parser.parse(Parser.java:788)
-	at org.h2.command.Parser.parse(Parser.java:760)
-	at org.h2.command.Parser.prepareCommand(Parser.java:683)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:150)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:177)
-	... 98 more
-05 5月 2025 20:29:19,724 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-05 5月 2025 20:29:19,724 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-05 5月 2025 20:31:17,201 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:31:21,859 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 20:31:21,864 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 31, executing database incremental update scripts 
-05 5月 2025 20:31:21,864 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 20:31:21,864 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:31:23,901 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 20:31:23,952 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 20:31:24,028 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 20:31:24,031 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 20:31:24,032 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 20:31:24,398 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 20:31:24,399 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-05 5月 2025 20:31:32,489 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:95) An exception occured, rolling back current transaction 
-jakarta.servlet.ServletException: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:410)
-	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
-	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
-	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:441)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:824)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:175)
+	at org.h2.command.dml.Insert.update(Insert.java:132)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:280)
+	... 62 more
+09 5月 2025 20:32:48,225 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+09 5月 2025 20:42:24,386 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+09 5月 2025 20:42:24,387 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+09 5月 2025 20:42:50,885 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:42:55,498 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+09 5月 2025 20:42:55,502 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 32, new version is 32, executing database incremental update scripts 
+09 5月 2025 20:42:55,502 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+09 5月 2025 20:42:55,503 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:42:57,429 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+09 5月 2025 20:42:57,482 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:132) Using file Lucene storage: ..\data\docs\lucene 
+09 5月 2025 20:42:57,565 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:144) Checking index health and version 
+09 5月 2025 20:42:57,577 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+09 5月 2025 20:42:57,580 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+09 5月 2025 20:42:57,580 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+09 5月 2025 20:42:57,939 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+09 5月 2025 20:42:57,940 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+09 5月 2025 20:43:14,902 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:122) Error during commit 
+jakarta.persistence.RollbackException: Error while committing the transaction
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:67)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:120)
 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
 	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
@@ -569,481 +383,152 @@ select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PAS
 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199)
-	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce(AdaptiveExecutionStrategy.java:193)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+Caused by: org.hibernate.exception.DataException: could not execute statement [Value too long for column """URR_PASSWORD_C"" VARCHAR_IGNORECASE(60) NOT NULL": "CAST('68bd1464f79367d0530965ec2f2e97be9845b19d027f759634fed555030a10e3' AS VARCHAR_IGNORECASE) (64)"; SQL statement:
+insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?) [22001-199]] [insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:55)
 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:187)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:152)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.lambda$list$0(JdbcSelectExecutorStandardImpl.java:102)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:227)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:164)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
-	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
-	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:200)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:361)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:168)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:93)
-	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$0(ConcreteSqmSelectQueryPlan.java:109)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:305)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:246)
-	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
-	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
-	at org.hibernate.query.Query.getResultList(Query.java:120)
-	at com.sismics.docs.core.service.UserRegistrationService.findByCriteria(UserRegistrationService.java:210)
-	at com.sismics.docs.core.service.UserRegistrationService.findByStatus(UserRegistrationService.java:180)
-	at com.sismics.docs.rest.resource.UserResource.listRegistrationRequests(UserResource.java:1240)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:134)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:177)
-	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
-	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
-	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
-	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
-	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
-	... 58 more
-Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:283)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:107)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:52)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:171)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:112)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2865)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:102)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:631)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:498)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:363)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1415)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:496)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2325)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1988)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	... 42 more
+Caused by: org.h2.jdbc.JdbcSQLDataException: Value too long for column """URR_PASSWORD_C"" VARCHAR_IGNORECASE(60) NOT NULL": "CAST('68bd1464f79367d0530965ec2f2e97be9845b19d027f759634fed555030a10e3' AS VARCHAR_IGNORECASE) (64)"; SQL statement:
+insert into T_USER_REGISTRATION_REQUEST (URR_CREATEDATE_D,URR_EMAIL_C,URR_PASSWORD_C,URR_PROCESSDATE_D,URR_PROCESSEDBY_C,URR_STATUS_C,URR_USERNAME_C,URR_ID_C) values (?,?,?,?,?,?,?,?) [22001-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:455)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
 	at org.h2.message.DbException.get(DbException.java:205)
-	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1895)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2636)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469)
-	at org.h2.command.Parser.parseSelect(Parser.java:2440)
-	at org.h2.command.Parser.parsePrepared(Parser.java:814)
-	at org.h2.command.Parser.parse(Parser.java:788)
-	at org.h2.command.Parser.parse(Parser.java:760)
-	at org.h2.command.Parser.prepareCommand(Parser.java:683)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:150)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:177)
-	... 103 more
-05 5月 2025 20:37:53,313 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-05 5月 2025 20:37:53,313 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-05 5月 2025 20:38:43,459 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:38:48,097 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 20:38:48,102 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 31, executing database incremental update scripts 
-05 5月 2025 20:38:48,102 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 20:38:48,102 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:38:50,161 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 20:38:50,210 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 20:38:50,287 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 20:38:50,290 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 20:38:50,290 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 20:38:50,658 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 20:38:50,659 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-05 5月 2025 20:38:57,748 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:95) An exception occured, rolling back current transaction 
-jakarta.servlet.ServletException: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:410)
-	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
-	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
-	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at org.eclipse.jetty.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:170)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131)
-	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:598)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223)
-	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
-	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
-	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
-	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
-	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
-	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
-	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
-	at org.eclipse.jetty.server.Server.handle(Server.java:563)
-	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
-	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
-	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
-	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
-	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
-	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
-	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199)
-	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:187)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:152)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.lambda$list$0(JdbcSelectExecutorStandardImpl.java:102)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:227)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:164)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
-	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
-	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:200)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:361)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:168)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:93)
-	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$0(ConcreteSqmSelectQueryPlan.java:109)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:305)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:246)
-	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
-	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
-	at org.hibernate.query.Query.getResultList(Query.java:120)
-	at com.sismics.docs.core.service.UserRegistrationService.findByCriteria(UserRegistrationService.java:210)
-	at com.sismics.docs.core.service.UserRegistrationService.findByStatus(UserRegistrationService.java:180)
-	at com.sismics.docs.rest.resource.UserResource.listRegistrationRequests(UserResource.java:1240)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:134)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:177)
-	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
-	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
-	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
-	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
-	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
-	... 58 more
-Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
-	at org.h2.message.DbException.get(DbException.java:205)
-	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1895)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2636)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469)
-	at org.h2.command.Parser.parseSelect(Parser.java:2440)
-	at org.h2.command.Parser.parsePrepared(Parser.java:814)
-	at org.h2.command.Parser.parse(Parser.java:788)
-	at org.h2.command.Parser.parse(Parser.java:760)
-	at org.h2.command.Parser.prepareCommand(Parser.java:683)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:150)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:177)
-	... 103 more
-05 5月 2025 20:39:03,929 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
-05 5月 2025 20:39:08,391 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:95) An exception occured, rolling back current transaction 
-jakarta.servlet.ServletException: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:410)
-	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
-	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
-	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
-	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at org.eclipse.jetty.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:170)
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
-	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131)
-	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:598)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223)
-	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
-	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
-	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
-	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
-	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
-	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
-	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
-	at org.eclipse.jetty.server.Server.handle(Server.java:563)
-	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
-	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
-	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
-	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
-	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
-	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
-	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
-	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199)
-	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement [Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]] [select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc]
-	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:187)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:152)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.lambda$list$0(JdbcSelectExecutorStandardImpl.java:102)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:227)
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:164)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
-	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
-	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:200)
-	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:361)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:168)
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:93)
-	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$0(ConcreteSqmSelectQueryPlan.java:109)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:305)
-	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:246)
-	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
-	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
-	at org.hibernate.query.Query.getResultList(Query.java:120)
-	at com.sismics.docs.core.service.UserRegistrationService.findByCriteria(UserRegistrationService.java:210)
-	at com.sismics.docs.core.service.UserRegistrationService.findByStatus(UserRegistrationService.java:180)
-	at com.sismics.docs.rest.resource.UserResource.listRegistrationRequests(UserResource.java:1240)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:134)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:177)
-	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
-	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
-	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
-	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
-	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
-	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
-	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
-	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
-	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
-	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
-	... 58 more
-Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER_REGISTRATION_REQUEST" not found; SQL statement:
-select urr1_0.URR_ID_C,urr1_0.URR_CREATEDATE_D,urr1_0.URR_EMAIL_C,urr1_0.URR_PASSWORD_C,urr1_0.URR_PROCESSDATE_D,urr1_0.URR_PROCESSEDBY_C,urr1_0.URR_STATUS_C,urr1_0.URR_USERNAME_C from T_USER_REGISTRATION_REQUEST urr1_0 where urr1_0.URR_STATUS_C=? order by urr1_0.URR_CREATEDATE_D desc [42102-199]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
-	at org.h2.message.DbException.get(DbException.java:205)
-	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1895)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2636)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469)
-	at org.h2.command.Parser.parseSelect(Parser.java:2440)
-	at org.h2.command.Parser.parsePrepared(Parser.java:814)
-	at org.h2.command.Parser.parse(Parser.java:788)
-	at org.h2.command.Parser.parse(Parser.java:760)
-	at org.h2.command.Parser.prepareCommand(Parser.java:683)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:150)
-	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:177)
-	... 103 more
-05 5月 2025 20:48:44,654 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:48:49,300 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 20:48:49,304 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 31, executing database incremental update scripts 
-05 5月 2025 20:48:49,305 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 20:48:49,305 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:48:51,466 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 20:48:51,523 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 20:48:51,591 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 20:48:51,594 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 20:48:51,595 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 20:48:51,954 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 20:48:51,956 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-05 5月 2025 20:56:02,834 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-05 5月 2025 20:56:02,834 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-05 5月 2025 20:56:58,019 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:57:02,663 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 20:57:02,668 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 31, executing database incremental update scripts 
-05 5月 2025 20:57:02,668 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 20:57:02,669 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 20:57:04,665 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 20:57:04,720 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 20:57:04,798 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 20:57:04,801 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 20:57:04,802 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 20:57:05,195 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 20:57:05,197 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-05 5月 2025 21:02:34,838 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-05 5月 2025 21:02:34,838 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-05 5月 2025 21:02:42,750 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 21:02:47,410 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 21:02:47,414 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 32, executing database incremental update scripts 
-05 5月 2025 21:02:47,419 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-032-0.sql 
-05 5月 2025 21:02:47,425 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement: create cached table T_USER_REGISTRATION_REQUEST ( 
-05 5月 2025 21:02:47,426 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "CREATE CACHED TABLE T_USER_REGISTRATION_REQUEST ( [*]"; expected "identifier"; SQL statement:
-create cached table T_USER_REGISTRATION_REQUEST ( [42001-199] 
-05 5月 2025 21:02:47,426 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   URR_ID_C varchar(36) not null, 
-05 5月 2025 21:02:47,427 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  URR_ID_C[*] VARCHAR(36) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
-  URR_ID_C varchar(36) not null, [42001-199] 
-05 5月 2025 21:02:47,427 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   URR_USERNAME_C varchar(50) not null, 
-05 5月 2025 21:02:47,427 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  URR_USERNAME_C[*] VARCHAR(50) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
-  URR_USERNAME_C varchar(50) not null, [42001-199] 
-05 5月 2025 21:02:47,428 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   URR_PASSWORD_C varchar(60) not null, 
-05 5月 2025 21:02:47,429 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  URR_PASSWORD_C[*] VARCHAR(60) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
-  URR_PASSWORD_C varchar(60) not null, [42001-199] 
-05 5月 2025 21:02:47,429 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   URR_EMAIL_C varchar(100) not null, 
-05 5月 2025 21:02:47,429 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  URR_EMAIL_C[*] VARCHAR(100) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
-  URR_EMAIL_C varchar(100) not null, [42001-199] 
-05 5月 2025 21:02:47,430 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   URR_CREATEDATE_D datetime not null, 
-05 5月 2025 21:02:47,430 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  URR_CREATEDATE_D[*] DATETIME NOT NULL, "; expected "UPDATE, USE"; SQL statement:
-  URR_CREATEDATE_D datetime not null, [42001-199] 
-05 5月 2025 21:02:47,431 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   URR_PROCESSDATE_D datetime, 
-05 5月 2025 21:02:47,431 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  URR_PROCESSDATE_D[*] DATETIME, "; expected "UPDATE, USE"; SQL statement:
-  URR_PROCESSDATE_D datetime, [42001-199] 
-05 5月 2025 21:02:47,431 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   URR_PROCESSEDBY_C varchar(36), 
-05 5月 2025 21:02:47,432 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  URR_PROCESSEDBY_C[*] VARCHAR(36), "; expected "UPDATE, USE"; SQL statement:
-  URR_PROCESSEDBY_C varchar(36), [42001-199] 
-05 5月 2025 21:02:47,432 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   URR_STATUS_C varchar(10) not null, 
-05 5月 2025 21:02:47,433 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  URR_STATUS_C[*] VARCHAR(10) NOT NULL, "; expected "UPDATE, USE"; SQL statement:
-  URR_STATUS_C varchar(10) not null, [42001-199] 
-05 5月 2025 21:02:47,433 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement:   primary key (URR_ID_C) 
-05 5月 2025 21:02:47,433 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement "  PRIMARY[*] KEY (URR_ID_C) "; SQL statement:
-  primary key (URR_ID_C) [42000-199] 
-05 5月 2025 21:02:47,433 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:172) Error executing SQL statement: ); 
-05 5月 2025 21:02:47,434 ERROR com.sismics.util.jpa.DbOpenHelper.executeScript(DbOpenHelper.java:173) Syntax error in SQL statement ")[*];"; SQL statement:
-); [42000-199] 
-05 5月 2025 21:02:47,435 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 21:02:47,435 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 21:02:49,374 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 21:02:49,434 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 21:02:49,509 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 21:02:49,512 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 21:02:49,513 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 21:02:49,883 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 21:02:49,885 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-05 5月 2025 21:04:36,577 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-05 5月 2025 21:04:36,578 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-05 5月 2025 21:07:26,911 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 21:07:31,573 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 21:07:31,576 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 32, new version is 32, executing database incremental update scripts 
-05 5月 2025 21:07:31,576 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 21:07:31,577 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 21:07:33,779 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 21:07:33,840 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 21:07:33,927 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 21:07:33,931 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 21:07:33,932 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 21:07:34,287 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 21:07:34,289 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
-05 5月 2025 21:24:24,525 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
-05 5月 2025 21:24:24,526 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
-05 5月 2025 21:26:44,593 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 21:26:49,261 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
-05 5月 2025 21:26:49,264 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 32, new version is 32, executing database incremental update scripts 
-05 5月 2025 21:26:49,264 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
-05 5月 2025 21:26:49,265 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
-05 5月 2025 21:26:51,292 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
-05 5月 2025 21:26:51,353 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
-05 5月 2025 21:26:51,429 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
-05 5月 2025 21:26:51,432 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
-05 5月 2025 21:26:51,433 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
-05 5月 2025 21:26:51,796 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
-05 5月 2025 21:26:51,798 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:441)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:824)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:175)
+	at org.h2.command.dml.Insert.update(Insert.java:132)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:280)
+	... 62 more
+09 5月 2025 20:43:43,565 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+09 5月 2025 20:43:43,566 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+09 5月 2025 20:44:19,877 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:44:24,480 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+09 5月 2025 20:44:24,481 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+09 5月 2025 20:44:24,482 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+09 5月 2025 20:44:24,485 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+09 5月 2025 20:44:24,513 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 32, executing database incremental update scripts 
+09 5月 2025 20:44:24,515 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+09 5月 2025 20:44:24,535 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+09 5月 2025 20:44:24,540 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+09 5月 2025 20:44:24,543 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+09 5月 2025 20:44:24,553 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+09 5月 2025 20:44:24,555 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+09 5月 2025 20:44:24,607 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+09 5月 2025 20:44:24,613 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+09 5月 2025 20:44:24,615 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+09 5月 2025 20:44:24,620 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+09 5月 2025 20:44:24,622 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+09 5月 2025 20:44:24,626 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+09 5月 2025 20:44:24,631 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+09 5月 2025 20:44:24,633 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+09 5月 2025 20:44:24,637 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+09 5月 2025 20:44:24,645 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+09 5月 2025 20:44:24,646 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+09 5月 2025 20:44:24,647 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+09 5月 2025 20:44:24,662 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+09 5月 2025 20:44:24,664 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+09 5月 2025 20:44:24,666 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+09 5月 2025 20:44:24,671 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+09 5月 2025 20:44:24,677 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+09 5月 2025 20:44:24,682 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+09 5月 2025 20:44:24,685 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+09 5月 2025 20:44:24,687 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+09 5月 2025 20:44:24,688 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+09 5月 2025 20:44:24,690 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+09 5月 2025 20:44:24,691 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+09 5月 2025 20:44:24,695 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+09 5月 2025 20:44:24,697 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+09 5月 2025 20:44:24,699 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-032-0.sql 
+09 5月 2025 20:44:24,701 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+09 5月 2025 20:44:24,701 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:44:26,709 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+09 5月 2025 20:44:26,757 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:132) Using file Lucene storage: ..\data\docs\lucene 
+09 5月 2025 20:44:26,821 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:144) Checking index health and version 
+09 5月 2025 20:44:26,833 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+09 5月 2025 20:44:26,836 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+09 5月 2025 20:44:26,837 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+09 5月 2025 20:44:27,185 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+09 5月 2025 20:44:27,186 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+09 5月 2025 20:44:43,384 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+09 5月 2025 20:49:22,405 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+09 5月 2025 20:49:22,406 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+09 5月 2025 20:49:55,498 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:49:56,077 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+09 5月 2025 20:49:56,079 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+09 5月 2025 20:49:56,079 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+09 5月 2025 20:49:56,084 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+09 5月 2025 20:49:56,123 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 32, executing database incremental update scripts 
+09 5月 2025 20:49:56,125 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+09 5月 2025 20:49:56,144 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+09 5月 2025 20:49:56,152 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+09 5月 2025 20:49:56,157 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+09 5月 2025 20:49:56,166 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+09 5月 2025 20:49:56,168 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+09 5月 2025 20:49:56,219 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+09 5月 2025 20:49:56,224 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+09 5月 2025 20:49:56,227 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+09 5月 2025 20:49:56,234 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+09 5月 2025 20:49:56,235 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+09 5月 2025 20:49:56,240 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+09 5月 2025 20:49:56,246 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+09 5月 2025 20:49:56,248 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+09 5月 2025 20:49:56,253 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+09 5月 2025 20:49:56,258 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+09 5月 2025 20:49:56,260 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+09 5月 2025 20:49:56,262 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+09 5月 2025 20:49:56,283 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+09 5月 2025 20:49:56,285 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+09 5月 2025 20:49:56,287 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+09 5月 2025 20:49:56,292 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+09 5月 2025 20:49:56,299 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+09 5月 2025 20:49:56,304 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+09 5月 2025 20:49:56,309 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+09 5月 2025 20:49:56,311 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+09 5月 2025 20:49:56,312 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+09 5月 2025 20:49:56,314 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+09 5月 2025 20:49:56,315 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+09 5月 2025 20:49:56,320 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+09 5月 2025 20:49:56,322 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+09 5月 2025 20:49:56,324 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-032-0.sql 
+09 5月 2025 20:49:56,325 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+09 5月 2025 20:49:56,326 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+09 5月 2025 20:49:58,302 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+09 5月 2025 20:49:58,348 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:132) Using file Lucene storage: ..\data\docs\lucene 
+09 5月 2025 20:49:58,406 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:144) Checking index health and version 
+09 5月 2025 20:49:58,418 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+09 5月 2025 20:49:58,421 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+09 5月 2025 20:49:58,422 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+09 5月 2025 20:49:58,781 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+09 5月 2025 20:49:58,782 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+09 5月 2025 20:50:05,841 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 

@@ -69,7 +69,7 @@ public class UserRegistrationService {
         String encryptedPassword = EncryptionUtil.hashPassword(password);
 
         // Create the request
-        return requestDao.create(username, email, encryptedPassword);
+        return requestDao.create(username, email, password);
     }
 
     /**
