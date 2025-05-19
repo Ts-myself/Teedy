@@ -414,6 +414,19 @@
       "value": "值",
       "order": "顺序",
       "new_entry": "新输入"
+    },
+    "activity": {
+      "title": "用户活动<small>管理</small>",
+      "description": "查看并监控所有用户在系统中的活动",
+      "filter_title": "过滤选项",
+      "filter_username": "用户名",
+      "filter_entity": "实体类型",
+      "filter_action": "操作类型",
+      "filter_all": "所有",
+      "filter_apply": "应用过滤",
+      "filter_clear": "清除过滤",
+      "list_title": "活动记录",
+      "no_activities": "没有找到活动记录"
     }
   },
   "feedback": {

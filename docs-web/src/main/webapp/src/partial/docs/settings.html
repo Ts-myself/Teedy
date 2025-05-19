@@ -37,6 +37,12 @@
           'settings.menu_ldap' | translate }}</a>
         <a class="list-group-item" ui-sref-active="{ active: 'settings.monitoring.**' }" href="#/settings/monitoring">{{
           'settings.menu_monitoring' | translate }}</a>
+        <li ng-class="{ active: $uiRoute }" ui-route="/settings/activity.*">
+          <a href="#/settings/activity">
+            <span class="fas fa-chart-line"></span>
+            {{ 'settings.menu_activity' | translate }}
+          </a>
+        </li>
       </ul>
     </div>
   </div>

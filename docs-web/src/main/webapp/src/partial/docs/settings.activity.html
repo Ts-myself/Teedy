@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>{{ 'settings.activity.title' | translate }}</h1>
+        </div>
+
+        <!-- Page description -->
+        <p class="text-muted">{{ 'settings.activity.description' | translate }}</p>
+
+        <!-- Activity list -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3 class="panel-title">{{ 'settings.activity.list_title' | translate }}</h3>
+                    </div>
+                    <div class="col-xs-6">
+                        <button class="btn btn-default btn-xs pull-right" ng-click="loadActivities()">
+                            <span class="fas fa-sync-alt"></span> {{ 'refresh' | translate }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body" ng-if="isLoading">
+                <div class="text-center">
+                    <span class="fas fa-circle-notch fa-spin"></span> {{ 'loading' | translate }}
+                </div>
+            </div>
+            <div ng-if="!isLoading">
+                <audit-log logs="logs"></audit-log>
+
+                <!-- Pagination -->
+                <div class="text-center" ng-if="totalActivities > activitiesPerPage">
+                    <ul uib-pagination total-items="totalActivities" ng-model="currentPage" max-size="10"
+                        items-per-page="activitiesPerPage" boundary-links="true" class="pagination"></ul>
+                </div>
+
+                <!-- No activities message -->
+                <div class="panel-body" ng-if="logs.length === 0">
+                    <div class="text-center">{{ 'settings.activity.no_activities' | translate }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

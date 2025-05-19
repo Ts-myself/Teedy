@@ -253,6 +253,15 @@ angular.module('docs',
           }
         }
       })
+      .state('settings.activity', {
+        url: '/activity',
+        views: {
+          'settings': {
+            templateUrl: 'partial/docs/settings.activity.html',
+            controller: 'SettingsActivity'
+          }
+        }
+      })
       .state('document', {
         url: '/document',
         abstract: true,

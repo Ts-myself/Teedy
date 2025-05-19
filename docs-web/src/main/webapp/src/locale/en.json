@@ -328,6 +328,19 @@
       "placeholder_email": "Enter your email",
       "placeholder_password": "Choose a password",
       "placeholder_password_confirm": "Confirm your password"
+    },
+    "activity": {
+      "title": "User Activity<small>Management</small>",
+      "description": "View and monitor all user activities in the system",
+      "filter_title": "Filter Options",
+      "filter_username": "Username",
+      "filter_entity": "Entity Type",
+      "filter_action": "Action Type",
+      "filter_all": "All",
+      "filter_apply": "Apply Filter",
+      "filter_clear": "Clear Filter",
+      "list_title": "Activity Records",
+      "no_activities": "No activity records found"
     }
   },
   "user": {

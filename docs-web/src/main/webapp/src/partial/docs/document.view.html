@@ -15,8 +15,10 @@
 
 <div ng-show="document">
   <div class="pull-right btn-group">
-    <button class="btn btn-danger" ng-show="document.writable" ng-click="deleteDocument(document)"><span class="fas fa-trash"></span> {{ 'delete' | translate }}</button>
-    <a href="#/document/edit/{{ document.id }}" ng-show="document.writable" class="btn btn-primary"><span class="fas fa-pencil-alt"></span> {{ 'edit' | translate }}</a>
+    <button class="btn btn-danger" ng-show="document.writable" ng-click="deleteDocument(document)"><span
+        class="fas fa-trash"></span> {{ 'delete' | translate }}</button>
+    <a href="#/document/edit/{{ document.id }}" ng-show="document.writable" class="btn btn-primary"><span
+        class="fas fa-pencil-alt"></span> {{ 'edit' | translate }}</a>
   </div>
 
   <div class="pull-right dropdown" uib-dropdown>
@@ -42,15 +44,17 @@
     &nbsp;
   </div>
 
-	<div class="page-header">
-	  <h1>
+  <div class="page-header">
+    <h1>
       {{ document.title }}
-      <small uib-tooltip="{{ 'document.last_updated' | translate: { date: document.update_date } }}">{{ document.create_date | date: dateFormat }}
-      {{ 'document.view.by_creator' | translate }} <a href="#/user/{{ document.creator }}">{{ document.creator }}</a></small>
+      <small uib-tooltip="{{ 'document.last_updated' | translate: { date: document.update_date } }}">{{
+        document.create_date | date: dateFormat }}
+        {{ 'document.view.by_creator' | translate }} <a href="#/user/{{ document.creator }}">{{ document.creator
+          }}</a></small>
     </h1>
 
-	  <p ng-show="document.writable">
-	    <button class="btn btn-sm btn-info" ng-click="share()" ng-show="userInfo.username != 'guest'">
+    <p ng-show="document.writable">
+      <button class="btn btn-sm btn-info" ng-click="share()" ng-show="userInfo.username != 'guest'">
         <span class="fas fa-share"></span> {{ 'share' | translate }}
       </button>
 
@@ -59,14 +63,15 @@
           <span class="fas fa-check"></span> {{ share.name ? share.name : 'shared' }}
         </button>
       </span>
-	  </p>
+    </p>
 
-	  <ul class="list-inline">
-	    <li ng-repeat="tag in document.tags">
-        <span class="label label-info pointer" ng-click="setSearch('tag:' + tag.name)" ng-style="{ 'background': tag.color }" invert-text-color="{{ tag.color }}">{{ tag.name }}</span>
+    <ul class="list-inline">
+      <li ng-repeat="tag in document.tags">
+        <span class="label label-info pointer" ng-click="setSearch('tag:' + tag.name)"
+          ng-style="{ 'background': tag.color }" invert-text-color="{{ tag.color }}">{{ tag.name }}</span>
       </li>
-	  </ul>
-	</div>
+    </ul>
+  </div>
 
   <div class="row">
     <div class="col-md-9">
@@ -91,6 +96,12 @@
             <span class="fas fa-tasks"></span> {{ 'document.view.activity' | translate }}
           </a>
         </li>
+        <li ng-class="{ active: $uiRoute }" ui-route="/settings/activity.*">
+          <a href="#/settings/activity">
+            <span class="fas fa-chart-line"></span>
+            {{ 'settings.menu_activity' | translate }}
+          </a>
+        </li>
       </ul>
       <div ui-view="tab"></div>
     </div>
@@ -107,24 +118,23 @@
             <span class="fas fa-exchange-alt" ng-if="document.route_step.type == 'APPROVE'"></span>
             <span class="fas fa-check-circle" ng-if="document.route_step.type == 'VALIDATE'"></span>
             {{ 'workflow_type.' + document.route_step.type | translate }}
-            <span class="label label-default"><acl data="document.route_step.target"></acl></span>
+            <span class="label label-default">
+              <acl data="document.route_step.target"></acl>
+            </span>
           </p>
           <p ng-show="document.route_step.transitionable">
             <textarea ng-model="workflowComment" maxlength="500" class="form-control mb-10"
-                      ng-attr-placeholder="{{ 'document.view.workflow_comment' | translate }}"></textarea>
-            <span class="btn btn-primary"
-                  ng-show="document.route_step.type == 'VALIDATE'"
-                  ng-click="validateWorkflow('VALIDATED')">
+              ng-attr-placeholder="{{ 'document.view.workflow_comment' | translate }}"></textarea>
+            <span class="btn btn-primary" ng-show="document.route_step.type == 'VALIDATE'"
+              ng-click="validateWorkflow('VALIDATED')">
               {{ 'workflow_transition.VALIDATED' | translate }}
             </span>
-            <span class="btn btn-success"
-                  ng-show="document.route_step.type == 'APPROVE'"
-                  ng-click="validateWorkflow('APPROVED')">
+            <span class="btn btn-success" ng-show="document.route_step.type == 'APPROVE'"
+              ng-click="validateWorkflow('APPROVED')">
               {{ 'workflow_transition.APPROVED' | translate }}
             </span>
-            <span class="btn btn-danger"
-                  ng-show="document.route_step.type == 'APPROVE'"
-                  ng-click="validateWorkflow('REJECTED')">
+            <span class="btn btn-danger" ng-show="document.route_step.type == 'APPROVE'"
+              ng-click="validateWorkflow('REJECTED')">
               {{ 'workflow_transition.REJECTED' | translate }}
             </span>
           </p>
@@ -145,18 +155,18 @@
 
       <div ng-repeat="comment in comments" class="media" style="overflow: hidden">
         <div class="pull-left">
-          <img ng-src="https://www.gravatar.com/avatar/{{ comment.creator_gravatar }}?s=40&d=identicon" class="media-object" />
+          <img ng-src="https://www.gravatar.com/avatar/{{ comment.creator_gravatar }}?s=40&d=identicon"
+            class="media-object" />
         </div>
         <div class="media-body">
           <strong>{{ comment.creator }}</strong>
           <p>
             {{ comment.content }}<br />
             <span class="text-muted">{{ comment.create_date | timeAgo: dateTimeFormat }}</span>
-          <span class="text-muted pull-right btn-link pointer"
-                ng-show="document.writable || userInfo.username == comment.creator"
-                ng-click="deleteComment(comment)">
-            <span class="fas fa-times"></span>
-          </span>
+            <span class="text-muted pull-right btn-link pointer"
+              ng-show="document.writable || userInfo.username == comment.creator" ng-click="deleteComment(comment)">
+              <span class="fas fa-times"></span>
+            </span>
           </p>
         </div>
       </div>
@@ -164,7 +174,8 @@
       <form ng-submit="addComment()">
         <div class="form-group">
           <label class="sr-only" for="commentInput">{{ 'document.view.add_comment' | translate }}</label>
-          <input type="text" class="form-control" id="commentInput" ng-model="comment" ng-attr-placeholder="{{ 'document.view.add_comment' | translate }}">
+          <input type="text" class="form-control" id="commentInput" ng-model="comment"
+            ng-attr-placeholder="{{ 'document.view.add_comment' | translate }}">
         </div>
       </form>
     </div>
