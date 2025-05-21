@@ -800,3 +800,329 @@ Caused by: java.io.IOException: CreateProcess error=2, ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼þ¡£
 21 5ÔÂ 2025 14:33:06,121 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
 21 5ÔÂ 2025 14:33:19,184 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
 21 5ÔÂ 2025 14:33:19,184 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+21 5ÔÂ 2025 14:37:09,987 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+21 5ÔÂ 2025 14:37:14,624 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+21 5ÔÂ 2025 14:37:14,627 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 32, new version is 32, executing database incremental update scripts 
+21 5ÔÂ 2025 14:37:14,627 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+21 5ÔÂ 2025 14:37:14,627 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+21 5ÔÂ 2025 14:37:16,548 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+21 5ÔÂ 2025 14:37:16,599 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:132) Using file Lucene storage: ..\data\docs\lucene 
+21 5ÔÂ 2025 14:37:16,680 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:144) Checking index health and version 
+21 5ÔÂ 2025 14:37:16,739 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+21 5ÔÂ 2025 14:37:16,742 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+21 5ÔÂ 2025 14:37:16,743 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+21 5ÔÂ 2025 14:37:17,157 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+21 5ÔÂ 2025 14:37:17,158 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+21 5ÔÂ 2025 14:37:58,414 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+21 5ÔÂ 2025 14:38:36,992 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+21 5ÔÂ 2025 14:38:36,993 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+21 5ÔÂ 2025 14:53:05,980 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+21 5ÔÂ 2025 14:53:10,811 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+21 5ÔÂ 2025 14:53:10,816 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 32, new version is 32, executing database incremental update scripts 
+21 5ÔÂ 2025 14:53:10,817 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+21 5ÔÂ 2025 14:53:10,817 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+21 5ÔÂ 2025 14:53:13,577 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+21 5ÔÂ 2025 14:53:13,631 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:132) Using file Lucene storage: ..\data\docs\lucene 
+21 5ÔÂ 2025 14:53:13,806 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:144) Checking index health and version 
+21 5ÔÂ 2025 14:53:13,949 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+21 5ÔÂ 2025 14:53:13,953 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+21 5ÔÂ 2025 14:53:13,954 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+21 5ÔÂ 2025 14:53:14,373 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+21 5ÔÂ 2025 14:53:14,375 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+21 5ÔÂ 2025 14:53:42,691 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+21 5ÔÂ 2025 14:53:42,691 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+21 5ÔÂ 2025 14:54:16,713 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+21 5ÔÂ 2025 14:54:21,360 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+21 5ÔÂ 2025 14:54:21,363 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 32, new version is 32, executing database incremental update scripts 
+21 5ÔÂ 2025 14:54:21,364 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+21 5ÔÂ 2025 14:54:21,364 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+21 5ÔÂ 2025 14:54:23,223 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+21 5ÔÂ 2025 14:54:23,267 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:132) Using file Lucene storage: ..\data\docs\lucene 
+21 5ÔÂ 2025 14:54:23,352 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:144) Checking index health and version 
+21 5ÔÂ 2025 14:54:23,434 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+21 5ÔÂ 2025 14:54:23,437 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+21 5ÔÂ 2025 14:54:23,437 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+21 5ÔÂ 2025 14:54:23,815 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+21 5ÔÂ 2025 14:54:23,817 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+21 5ÔÂ 2025 14:54:36,208 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+21 5ÔÂ 2025 15:20:13,623 INFO com.sismics.docs.core.util.FileUtil.startProcessingFile(FileUtil.java:225) Processing started for file: 644f45b1-7226-4ca6-a373-d3fe04b338c6 
+21 5ÔÂ 2025 15:20:13,636 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.on(FileProcessingAsyncListener.java:53) File created event: FileCreatedAsyncEvent{fileId=644f45b1-7226-4ca6-a373-d3fe04b338c6, language=null} 
+21 5ÔÂ 2025 15:20:13,748 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 7 classes for FormatHandler 
+21 5ÔÂ 2025 15:20:13,753 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:143) Format unhandled: image/rw2 
+21 5ÔÂ 2025 15:20:13,908 INFO com.sismics.docs.core.util.FileUtil.endProcessingFile(FileUtil.java:235) Processing ended for file: 644f45b1-7226-4ca6-a373-d3fe04b338c6 
+21 5ÔÂ 2025 15:20:30,924 INFO com.sismics.docs.core.listener.async.DocumentCreatedAsyncListener.on(DocumentCreatedAsyncListener.java:35) Document created event: DocumentCreatedAsyncEvent{documentId=944f22be-0b93-4939-b0f7-3f687744642f} 
+21 5ÔÂ 2025 15:20:31,038 INFO com.sismics.docs.core.util.FileUtil.startProcessingFile(FileUtil.java:225) Processing started for file: 644f45b1-7226-4ca6-a373-d3fe04b338c6 
+21 5ÔÂ 2025 15:20:31,040 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.on(FileProcessingAsyncListener.java:67) File updated event: FileUpdatedAsyncEvent{fileId=644f45b1-7226-4ca6-a373-d3fe04b338c6, language=eng} 
+21 5ÔÂ 2025 15:20:31,040 INFO com.sismics.docs.core.listener.async.DocumentUpdatedAsyncListener.on(DocumentUpdatedAsyncListener.java:39) Document updated event: DocumentUpdatedAsyncEvent{documentId=944f22be-0b93-4939-b0f7-3f687744642f} 
+21 5ÔÂ 2025 15:20:31,041 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:143) Format unhandled: image/rw2 
+21 5ÔÂ 2025 15:20:31,199 INFO com.sismics.docs.core.util.FileUtil.endProcessingFile(FileUtil.java:235) Processing ended for file: 644f45b1-7226-4ca6-a373-d3fe04b338c6 
+21 5ÔÂ 2025 15:23:01,570 INFO com.sismics.docs.core.util.FileUtil.startProcessingFile(FileUtil.java:225) Processing started for file: c2f9259d-43a2-4a00-9c5c-1961643ed46f 
+21 5ÔÂ 2025 15:23:01,572 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.on(FileProcessingAsyncListener.java:53) File created event: FileCreatedAsyncEvent{fileId=c2f9259d-43a2-4a00-9c5c-1961643ed46f, language=eng} 
+21 5ÔÂ 2025 15:23:01,572 INFO com.sismics.docs.core.listener.async.DocumentUpdatedAsyncListener.on(DocumentUpdatedAsyncListener.java:39) Document updated event: DocumentUpdatedAsyncEvent{documentId=ef5b963b-8da4-4682-9660-47dc6ffc4809} 
+21 5ÔÂ 2025 15:23:02,055 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:176) Start extracting content from: File{id=c2f9259d-43a2-4a00-9c5c-1961643ed46f, name=½­ÅôÕ¹·ÖÏí_0517.pdf} 
+21 5ÔÂ 2025 15:23:02,301 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'q1?G' which goes past the file size; offset: 175300097, size: 3711376182, font size: 4096 
+21 5ÔÂ 2025 15:23:02,301 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?(_' which goes past the file size; offset: 1718678598, size: 2554361674, font size: 4096 
+21 5ÔÂ 2025 15:23:02,302 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'e<(' which goes past the file size; offset: 2872051013, size: 1148343416, font size: 4096 
+21 5ÔÂ 2025 15:23:02,303 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?B\' which goes past the file size; offset: 3765468166, size: 559968878, font size: 4096 
+21 5ÔÂ 2025 15:23:02,303 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?q?' which goes past the file size; offset: 2656635174, size: 2759652109, font size: 4096 
+21 5ÔÂ 2025 15:23:02,303 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '? =C' which goes past the file size; offset: 2517507357, size: 4079870252, font size: 4096 
+21 5ÔÂ 2025 15:23:02,304 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?'¡èl' which goes past the file size; offset: 185560866, size: 1832035944, font size: 4096 
+21 5ÔÂ 2025 15:23:02,304 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'O?[' which goes past the file size; offset: 1399224856, size: 542478856, font size: 4096 
+21 5ÔÂ 2025 15:23:02,304 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?I¡ãj' which goes past the file size; offset: 1529674763, size: 1366448496, font size: 4096 
+21 5ÔÂ 2025 15:23:02,304 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'aq' which goes past the file size; offset: 542537794, size: 4148924962, font size: 4096 
+21 5ÔÂ 2025 15:23:02,305 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'hi 	' which goes past the file size; offset: 911652184, size: 1076771155, font size: 4096 
+21 5ÔÂ 2025 15:23:02,305 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'p}?U' which goes past the file size; offset: 1158495601, size: 191114762, font size: 4096 
+21 5ÔÂ 2025 15:23:02,305 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'L?' which goes past the file size; offset: 2265636978, size: 1820046421, font size: 4096 
+21 5ÔÂ 2025 15:23:02,305 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?N' which goes past the file size; offset: 1260138071, size: 727380748, font size: 4096 
+21 5ÔÂ 2025 15:23:02,306 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'R}C' which goes past the file size; offset: 1966080009, size: 1159886370, font size: 4096 
+21 5ÔÂ 2025 15:23:02,306 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?_H' which goes past the file size; offset: 4228182098, size: 1785113862, font size: 4096 
+21 5ÔÂ 2025 15:23:02,306 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?] ' which goes past the file size; offset: 1797839965, size: 2100194330, font size: 4096 
+21 5ÔÂ 2025 15:23:02,306 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'k?q' which goes past the file size; offset: 1632266047, size: 407661105, font size: 4096 
+21 5ÔÂ 2025 15:23:02,306 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '73?\' which goes past the file size; offset: 274495512, size: 92259108, font size: 4096 
+21 5ÔÂ 2025 15:23:02,307 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'Ha?4' which goes past the file size; offset: 3238050115, size: 3328800629, font size: 4096 
+21 5ÔÂ 2025 15:23:02,307 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?8?[' which goes past the file size; offset: 1330518292, size: 223799678, font size: 4096 
+21 5ÔÂ 2025 15:23:02,307 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '~_' which goes past the file size; offset: 2824686115, size: 1145659449, font size: 4096 
+21 5ÔÂ 2025 15:23:02,307 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?.!y' which goes past the file size; offset: 1328235568, size: 124356876, font size: 4096 
+21 5ÔÂ 2025 15:23:02,307 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?
+!' which goes past the file size; offset: 3695689741, size: 2771383345, font size: 4096 
+21 5ÔÂ 2025 15:23:02,308 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'kX' which goes past the file size; offset: 2052636192, size: 2742063655, font size: 4096 
+21 5ÔÂ 2025 15:23:02,309 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?l¨´' which goes past the file size; offset: 1768357999, size: 959266354, font size: 4096 
+21 5ÔÂ 2025 15:23:02,309 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'h*,' which goes past the file size; offset: 2047118653, size: 3543675248, font size: 4096 
+21 5ÔÂ 2025 15:23:02,309 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 's8?' which goes past the file size; offset: 2503290431, size: 2452458619, font size: 4096 
+21 5ÔÂ 2025 15:23:02,309 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '$V?' which goes past the file size; offset: 909636690, size: 3358642460, font size: 4096 
+21 5ÔÂ 2025 15:23:02,310 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '>Q' which goes past the file size; offset: 3943477330, size: 2131192333, font size: 4096 
+21 5ÔÂ 2025 15:23:02,310 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?*|2' which goes past the file size; offset: 3630266993, size: 4068090186, font size: 4096 
+21 5ÔÂ 2025 15:23:02,310 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??#' which goes past the file size; offset: 876161834, size: 302884725, font size: 4096 
+21 5ÔÂ 2025 15:23:02,310 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?/¨¬l' which goes past the file size; offset: 3379487549, size: 58527051, font size: 4096 
+21 5ÔÂ 2025 15:23:02,311 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?L' which goes past the file size; offset: 2013758274, size: 2619035168, font size: 4096 
+21 5ÔÂ 2025 15:23:02,311 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '5?L' which goes past the file size; offset: 2991666241, size: 3949970296, font size: 4096 
+21 5ÔÂ 2025 15:23:02,311 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '290Y' which goes past the file size; offset: 5693028, size: 2938875175, font size: 4096 
+21 5ÔÂ 2025 15:23:02,311 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'V¡è' which goes past the file size; offset: 2081927736, size: 3698306818, font size: 4096 
+21 5ÔÂ 2025 15:23:02,311 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '4G?P' which goes past the file size; offset: 1445241206, size: 442585124, font size: 4096 
+21 5ÔÂ 2025 15:23:02,312 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '???' which goes past the file size; offset: 1349968485, size: 1175223870, font size: 4096 
+21 5ÔÂ 2025 15:23:02,312 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?i!M' which goes past the file size; offset: 1109618761, size: 4028237437, font size: 4096 
+21 5ÔÂ 2025 15:23:02,312 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?*?\' which goes past the file size; offset: 2539489886, size: 3679919480, font size: 4096 
+21 5ÔÂ 2025 15:23:02,312 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡è0ZA' which goes past the file size; offset: 3460575595, size: 2164513334, font size: 4096 
+21 5ÔÂ 2025 15:23:02,312 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??S' which goes past the file size; offset: 4194676060, size: 2356721985, font size: 4096 
+21 5ÔÂ 2025 15:23:02,313 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?Y' which goes past the file size; offset: 1129056630, size: 1562384965, font size: 4096 
+21 5ÔÂ 2025 15:23:02,313 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?[?y' which goes past the file size; offset: 1644270094, size: 2302132291, font size: 4096 
+21 5ÔÂ 2025 15:23:02,313 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?_8' which goes past the file size; offset: 677272672, size: 1466061657, font size: 4096 
+21 5ÔÂ 2025 15:23:02,313 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?y?U' which goes past the file size; offset: 4165647718, size: 1142021644, font size: 4096 
+21 5ÔÂ 2025 15:23:02,313 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'p
+?Z' which goes past the file size; offset: 1209061196, size: 2134200627, font size: 4096 
+21 5ÔÂ 2025 15:23:02,314 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table ''?l' which goes past the file size; offset: 626520939, size: 1833238626, font size: 4096 
+21 5ÔÂ 2025 15:23:02,314 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '/E' which goes past the file size; offset: 2893629786, size: 638657393, font size: 4096 
+21 5ÔÂ 2025 15:23:02,314 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '`W=' which goes past the file size; offset: 2435004681, size: 4133901326, font size: 4096 
+21 5ÔÂ 2025 15:23:02,314 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'iP?3' which goes past the file size; offset: 2621631859, size: 3708228703, font size: 4096 
+21 5ÔÂ 2025 15:23:02,314 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'K@GH' which goes past the file size; offset: 659018845, size: 275531315, font size: 4096 
+21 5ÔÂ 2025 15:23:02,315 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??' which goes past the file size; offset: 2721325345, size: 1968681287, font size: 4096 
+21 5ÔÂ 2025 15:23:02,315 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '>ij' which goes past the file size; offset: 251808013, size: 725517080, font size: 4096 
+21 5ÔÂ 2025 15:23:02,315 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'wT?I' which goes past the file size; offset: 2253031765, size: 7981379, font size: 4096 
+21 5ÔÂ 2025 15:23:02,315 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?{?"' which goes past the file size; offset: 2974637583, size: 4165597307, font size: 4096 
+21 5ÔÂ 2025 15:23:02,315 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '|^?3' which goes past the file size; offset: 1363151681, size: 3442501386, font size: 4096 
+21 5ÔÂ 2025 15:23:02,316 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?F?)' which goes past the file size; offset: 3094091520, size: 1762644833, font size: 4096 
+21 5ÔÂ 2025 15:23:02,316 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'b?F' which goes past the file size; offset: 1294191647, size: 1847515712, font size: 4096 
+21 5ÔÂ 2025 15:23:02,316 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?N?' which goes past the file size; offset: 192657519, size: 2939256932, font size: 4096 
+21 5ÔÂ 2025 15:23:02,317 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨¤y8' which goes past the file size; offset: 39989258, size: 3041700938, font size: 4096 
+21 5ÔÂ 2025 15:23:02,317 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '"\?1' which goes past the file size; offset: 3581790258, size: 990358532, font size: 4096 
+21 5ÔÂ 2025 15:23:02,317 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?]?W' which goes past the file size; offset: 979164484, size: 2973871385, font size: 4096 
+21 5ÔÂ 2025 15:23:02,317 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '>/C' which goes past the file size; offset: 2104691762, size: 3173598329, font size: 4096 
+21 5ÔÂ 2025 15:23:02,317 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?4Z' which goes past the file size; offset: 4252153616, size: 3037653117, font size: 4096 
+21 5ÔÂ 2025 15:23:02,318 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?h6c' which goes past the file size; offset: 2908981050, size: 637957759, font size: 4096 
+21 5ÔÂ 2025 15:23:02,318 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?X?.' which goes past the file size; offset: 2501436538, size: 1365290101, font size: 4096 
+21 5ÔÂ 2025 15:23:02,318 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?d?J' which goes past the file size; offset: 1332707149, size: 2825694762, font size: 4096 
+21 5ÔÂ 2025 15:23:02,318 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?K' which goes past the file size; offset: 2321598764, size: 1427014781, font size: 4096 
+21 5ÔÂ 2025 15:23:02,318 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'r k"' which goes past the file size; offset: 2321578608, size: 3022035252, font size: 4096 
+21 5ÔÂ 2025 15:23:02,319 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '}' which goes past the file size; offset: 2786003772, size: 3559603552, font size: 4096 
+21 5ÔÂ 2025 15:23:02,319 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?O?S' which goes past the file size; offset: 3359259517, size: 4201129037, font size: 4096 
+21 5ÔÂ 2025 15:23:02,319 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'a(¡ìE' which goes past the file size; offset: 4046163578, size: 504882694, font size: 4096 
+21 5ÔÂ 2025 15:23:02,319 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table ' X' which goes past the file size; offset: 2991245681, size: 1814003050, font size: 4096 
+21 5ÔÂ 2025 15:23:02,319 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'L	' which goes past the file size; offset: 3020716102, size: 3288975944, font size: 4096 
+21 5ÔÂ 2025 15:23:02,319 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '? 7	' which goes past the file size; offset: 825649216, size: 977342489, font size: 4096 
+21 5ÔÂ 2025 15:23:02,320 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?' which goes past the file size; offset: 2037001562, size: 2536011579, font size: 4096 
+21 5ÔÂ 2025 15:23:02,320 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'mD¨¹p' which goes past the file size; offset: 1846320415, size: 3598617163, font size: 4096 
+21 5ÔÂ 2025 15:23:02,320 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?H?' which goes past the file size; offset: 158290716, size: 2819865090, font size: 4096 
+21 5ÔÂ 2025 15:23:02,320 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'B~?' which goes past the file size; offset: 3528797530, size: 4048279850, font size: 4096 
+21 5ÔÂ 2025 15:23:02,320 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'y?C' which goes past the file size; offset: 1799737199, size: 1232510752, font size: 4096 
+21 5ÔÂ 2025 15:23:02,321 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '><¡§]' which goes past the file size; offset: 103030303, size: 2070882662, font size: 4096 
+21 5ÔÂ 2025 15:23:02,321 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?Q3' which goes past the file size; offset: 3945383171, size: 152532293, font size: 4096 
+21 5ÔÂ 2025 15:23:02,321 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '{a?7' which goes past the file size; offset: 4079072081, size: 2786322178, font size: 4096 
+21 5ÔÂ 2025 15:23:02,321 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?[`K' which goes past the file size; offset: 259693347, size: 3127363359, font size: 4096 
+21 5ÔÂ 2025 15:23:02,321 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'SV?' which goes past the file size; offset: 3257103193, size: 3797270572, font size: 4096 
+21 5ÔÂ 2025 15:23:02,321 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?]' which goes past the file size; offset: 2739205638, size: 1846895404, font size: 4096 
+21 5ÔÂ 2025 15:23:02,322 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '\' which goes past the file size; offset: 3694535282, size: 3780551173, font size: 4096 
+21 5ÔÂ 2025 15:23:02,322 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'S@?a' which goes past the file size; offset: 2908338721, size: 1947751686, font size: 4096 
+21 5ÔÂ 2025 15:23:02,322 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'rJ	' which goes past the file size; offset: 3929130363, size: 2487925109, font size: 4096 
+21 5ÔÂ 2025 15:23:02,322 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??J' which goes past the file size; offset: 2019167604, size: 1598352438, font size: 4096 
+21 5ÔÂ 2025 15:23:02,322 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?Dh{' which goes past the file size; offset: 3578044746, size: 721973883, font size: 4096 
+21 5ÔÂ 2025 15:23:02,322 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?R' which goes past the file size; offset: 2370392922, size: 4283937541, font size: 4096 
+21 5ÔÂ 2025 15:23:02,323 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'd$=' which goes past the file size; offset: 3305651063, size: 387611259, font size: 4096 
+21 5ÔÂ 2025 15:23:02,323 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'Z{?I' which goes past the file size; offset: 3021615709, size: 1678604360, font size: 4096 
+21 5ÔÂ 2025 15:23:02,323 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '2\U' which goes past the file size; offset: 621828142, size: 172932880, font size: 4096 
+21 5ÔÂ 2025 15:23:02,323 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '1qZl' which goes past the file size; offset: 4148334337, size: 3777578803, font size: 4096 
+21 5ÔÂ 2025 15:23:02,324 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?C?/' which goes past the file size; offset: 2625043968, size: 4114902364, font size: 4096 
+21 5ÔÂ 2025 15:23:02,324 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?8,' which goes past the file size; offset: 2638778136, size: 101609256, font size: 4096 
+21 5ÔÂ 2025 15:23:02,324 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡¤(?9' which goes past the file size; offset: 359755828, size: 134476117, font size: 4096 
+21 5ÔÂ 2025 15:23:02,324 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'G>' which goes past the file size; offset: 844338703, size: 2756016904, font size: 4096 
+21 5ÔÂ 2025 15:23:02,325 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨¤\%e' which goes past the file size; offset: 3076338962, size: 3045062682, font size: 4096 
+21 5ÔÂ 2025 15:23:02,325 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?O?G' which goes past the file size; offset: 2101037376, size: 3424073986, font size: 4096 
+21 5ÔÂ 2025 15:23:02,325 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'H?' which goes past the file size; offset: 3981644088, size: 2905960511, font size: 4096 
+21 5ÔÂ 2025 15:23:02,325 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'RXXq' which goes past the file size; offset: 2266730304, size: 3474372194, font size: 4096 
+21 5ÔÂ 2025 15:23:02,325 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?vvf' which goes past the file size; offset: 1580468584, size: 3761407261, font size: 4096 
+21 5ÔÂ 2025 15:23:02,325 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '	FUu' which goes past the file size; offset: 2589887282, size: 1060126309, font size: 4096 
+21 5ÔÂ 2025 15:23:02,326 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?+S' which goes past the file size; offset: 4114113112, size: 2150147109, font size: 4096 
+21 5ÔÂ 2025 15:23:02,326 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡ã;O' which goes past the file size; offset: 1045537300, size: 3946602243, font size: 4096 
+21 5ÔÂ 2025 15:23:02,326 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'n/@' which goes past the file size; offset: 3640959491, size: 4252662574, font size: 4096 
+21 5ÔÂ 2025 15:23:02,326 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'B)Z' which goes past the file size; offset: 1026652945, size: 3843089988, font size: 4096 
+21 5ÔÂ 2025 15:23:02,326 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '>o' which goes past the file size; offset: 1949600888, size: 156431940, font size: 4096 
+21 5ÔÂ 2025 15:23:02,326 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡Â[?=' which goes past the file size; offset: 2671638863, size: 2131484687, font size: 4096 
+21 5ÔÂ 2025 15:23:02,327 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?q¡Â' which goes past the file size; offset: 1869424426, size: 2485666428, font size: 4096 
+21 5ÔÂ 2025 15:23:02,327 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'H9' which goes past the file size; offset: 2907062595, size: 1227332216, font size: 4096 
+21 5ÔÂ 2025 15:23:02,327 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '`,z' which goes past the file size; offset: 3027154495, size: 3495742525, font size: 4096 
+21 5ÔÂ 2025 15:23:02,327 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?wv`' which goes past the file size; offset: 4047354234, size: 319463441, font size: 4096 
+21 5ÔÂ 2025 15:23:02,327 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'wC' which goes past the file size; offset: 1780531300, size: 775963161, font size: 4096 
+21 5ÔÂ 2025 15:23:02,327 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?]?*' which goes past the file size; offset: 877004402, size: 4027891771, font size: 4096 
+21 5ÔÂ 2025 15:23:02,328 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?Ph' which goes past the file size; offset: 4213377305, size: 1579650836, font size: 4096 
+21 5ÔÂ 2025 15:23:02,328 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '_"?^' which goes past the file size; offset: 2118323553, size: 812910454, font size: 4096 
+21 5ÔÂ 2025 15:23:02,328 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡ãV' which goes past the file size; offset: 275027712, size: 1383785083, font size: 4096 
+21 5ÔÂ 2025 15:23:02,328 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?T"s' which goes past the file size; offset: 409727499, size: 1680851501, font size: 4096 
+21 5ÔÂ 2025 15:23:02,328 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '~H?' which goes past the file size; offset: 2451877171, size: 977578033, font size: 4096 
+21 5ÔÂ 2025 15:23:02,328 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'B¨®$' which goes past the file size; offset: 2354256659, size: 1564048654, font size: 4096 
+21 5ÔÂ 2025 15:23:02,329 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'Y=$' which goes past the file size; offset: 2853359886, size: 2286128510, font size: 4096 
+21 5ÔÂ 2025 15:23:02,329 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡Â}J' which goes past the file size; offset: 1767598918, size: 2729956278, font size: 4096 
+21 5ÔÂ 2025 15:23:02,329 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '/¡ì?¨²' which goes past the file size; offset: 3243559170, size: 3967384929, font size: 4096 
+21 5ÔÂ 2025 15:23:02,329 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?"' which goes past the file size; offset: 1678183269, size: 578644496, font size: 4096 
+21 5ÔÂ 2025 15:23:02,330 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?7?' which goes past the file size; offset: 2132449636, size: 1480370271, font size: 4096 
+21 5ÔÂ 2025 15:23:02,330 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table ' PR"' which goes past the file size; offset: 443997453, size: 3494180367, font size: 4096 
+21 5ÔÂ 2025 15:23:02,330 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'v^M#' which goes past the file size; offset: 3475801661, size: 4248991828, font size: 4096 
+21 5ÔÂ 2025 15:23:02,330 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'T J' which goes past the file size; offset: 1309410927, size: 118961685, font size: 4096 
+21 5ÔÂ 2025 15:23:02,330 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'D?W' which goes past the file size; offset: 3648853275, size: 1262066753, font size: 4096 
+21 5ÔÂ 2025 15:23:02,330 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?qHp' which goes past the file size; offset: 3358993446, size: 3631151154, font size: 4096 
+21 5ÔÂ 2025 15:23:02,331 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '$f' which goes past the file size; offset: 104401759, size: 4098687007, font size: 4096 
+21 5ÔÂ 2025 15:23:02,331 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'xPm' which goes past the file size; offset: 2435003405, size: 2501003546, font size: 4096 
+21 5ÔÂ 2025 15:23:02,331 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?_¡ãN' which goes past the file size; offset: 4266814735, size: 3896693034, font size: 4096 
+21 5ÔÂ 2025 15:23:02,331 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨´u.' which goes past the file size; offset: 4082188810, size: 3441653354, font size: 4096 
+21 5ÔÂ 2025 15:23:02,331 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?St' which goes past the file size; offset: 2887352614, size: 1501396025, font size: 4096 
+21 5ÔÂ 2025 15:23:02,332 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨¹X?|' which goes past the file size; offset: 1998765151, size: 1395592193, font size: 4096 
+21 5ÔÂ 2025 15:23:02,332 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'WE' which goes past the file size; offset: 927255138, size: 3071651589, font size: 4096 
+21 5ÔÂ 2025 15:23:02,332 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'y=:Y' which goes past the file size; offset: 3848685180, size: 926799689, font size: 4096 
+21 5ÔÂ 2025 15:23:02,332 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?}?=' which goes past the file size; offset: 167972631, size: 3043448320, font size: 4096 
+21 5ÔÂ 2025 15:23:02,333 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?D9' which goes past the file size; offset: 1181926986, size: 3378570510, font size: 4096 
+21 5ÔÂ 2025 15:23:02,333 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '*V' which goes past the file size; offset: 3423556730, size: 1092788000, font size: 4096 
+21 5ÔÂ 2025 15:23:02,333 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '}?s' which goes past the file size; offset: 3827851522, size: 2621997896, font size: 4096 
+21 5ÔÂ 2025 15:23:02,333 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨´0G_' which goes past the file size; offset: 1748885111, size: 2388129075, font size: 4096 
+21 5ÔÂ 2025 15:23:02,333 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'Gr?*' which goes past the file size; offset: 1192262774, size: 2152611181, font size: 4096 
+21 5ÔÂ 2025 15:23:02,333 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?L' which goes past the file size; offset: 84423295, size: 218957614, font size: 4096 
+21 5ÔÂ 2025 15:23:02,333 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'g=?' which goes past the file size; offset: 962575206, size: 2248663617, font size: 4096 
+21 5ÔÂ 2025 15:23:02,334 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?4?O' which goes past the file size; offset: 237311316, size: 1867235704, font size: 4096 
+21 5ÔÂ 2025 15:23:02,334 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??{' which goes past the file size; offset: 3255632975, size: 4283661609, font size: 4096 
+21 5ÔÂ 2025 15:23:02,334 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??-' which goes past the file size; offset: 705924446, size: 2754498628, font size: 4096 
+21 5ÔÂ 2025 15:23:02,334 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'e[' which goes past the file size; offset: 744848183, size: 2087672949, font size: 4096 
+21 5ÔÂ 2025 15:23:02,334 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'jh	' which goes past the file size; offset: 1126882682, size: 3715441239, font size: 4096 
+21 5ÔÂ 2025 15:23:02,334 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'u2F' which goes past the file size; offset: 4279207428, size: 3456109365, font size: 4096 
+21 5ÔÂ 2025 15:23:02,335 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '9F7' which goes past the file size; offset: 2183892041, size: 2350113629, font size: 4096 
+21 5ÔÂ 2025 15:23:02,335 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??)' which goes past the file size; offset: 69913158, size: 120215814, font size: 4096 
+21 5ÔÂ 2025 15:23:02,335 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '7O' which goes past the file size; offset: 1347509887, size: 1648197691, font size: 4096 
+21 5ÔÂ 2025 15:23:02,335 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?&6K' which goes past the file size; offset: 1162881803, size: 1981305189, font size: 4096 
+21 5ÔÂ 2025 15:23:02,335 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '|T¨´)' which goes past the file size; offset: 1449089077, size: 1333536345, font size: 4096 
+21 5ÔÂ 2025 15:23:02,336 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'WG?`' which goes past the file size; offset: 187813674, size: 2920563068, font size: 4096 
+21 5ÔÂ 2025 15:23:02,336 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨¦¨´W' which goes past the file size; offset: 2100477752, size: 2235319158, font size: 4096 
+21 5ÔÂ 2025 15:23:02,336 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?3m' which goes past the file size; offset: 3726318107, size: 2115155315, font size: 4096 
+21 5ÔÂ 2025 15:23:02,336 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?ECJ' which goes past the file size; offset: 3998226523, size: 1952285560, font size: 4096 
+21 5ÔÂ 2025 15:23:02,337 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?rsK' which goes past the file size; offset: 2266084157, size: 4181752898, font size: 4096 
+21 5ÔÂ 2025 15:23:02,337 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?sv' which goes past the file size; offset: 309995842, size: 3477197627, font size: 4096 
+21 5ÔÂ 2025 15:23:02,337 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '? ?~' which goes past the file size; offset: 273972272, size: 1847239037, font size: 4096 
+21 5ÔÂ 2025 15:23:02,337 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨¤T?`' which goes past the file size; offset: 2453075255, size: 2220843362, font size: 4096 
+21 5ÔÂ 2025 15:23:02,337 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '7' which goes past the file size; offset: 3245776157, size: 1886679592, font size: 4096 
+21 5ÔÂ 2025 15:23:02,337 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨ºR7p' which goes past the file size; offset: 1466483578, size: 3327105316, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '{ ?' which goes past the file size; offset: 611219723, size: 3473898500, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'Z?:' which goes past the file size; offset: 2321159949, size: 106899489, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?}%' which goes past the file size; offset: 18921004, size: 2619902817, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?8U' which goes past the file size; offset: 2488382981, size: 4095540012, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?id' which goes past the file size; offset: 1651718192, size: 671526509, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'A'' which goes past the file size; offset: 488351071, size: 2188132131, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡Â`5T' which goes past the file size; offset: 2405442833, size: 67842053, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'Fd7' which goes past the file size; offset: 270412106, size: 3776143925, font size: 4096 
+21 5ÔÂ 2025 15:23:02,338 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?Z?z' which goes past the file size; offset: 285336166, size: 21339906, font size: 4096 
+21 5ÔÂ 2025 15:23:02,339 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?mz|' which goes past the file size; offset: 2506803064, size: 2169245755, font size: 4096 
+21 5ÔÂ 2025 15:23:02,339 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'D?4' which goes past the file size; offset: 2988380981, size: 813549326, font size: 4096 
+21 5ÔÂ 2025 15:23:02,339 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '+T¡¤-' which goes past the file size; offset: 340411763, size: 324220674, font size: 4096 
+21 5ÔÂ 2025 15:23:02,339 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table ''?' which goes past the file size; offset: 2051579451, size: 3796350832, font size: 4096 
+21 5ÔÂ 2025 15:23:02,340 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'JQ?' which goes past the file size; offset: 944744293, size: 2323055135, font size: 4096 
+21 5ÔÂ 2025 15:23:02,340 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '#;Pq' which goes past the file size; offset: 3008931910, size: 2836707933, font size: 4096 
+21 5ÔÂ 2025 15:23:02,340 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '>9?R' which goes past the file size; offset: 3898945904, size: 338550843, font size: 4096 
+21 5ÔÂ 2025 15:23:02,340 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'u?6' which goes past the file size; offset: 3859715454, size: 1413373513, font size: 4096 
+21 5ÔÂ 2025 15:23:02,340 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '_%2F' which goes past the file size; offset: 1331915383, size: 622493033, font size: 4096 
+21 5ÔÂ 2025 15:23:02,341 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?7' which goes past the file size; offset: 3659139896, size: 4128927541, font size: 4096 
+21 5ÔÂ 2025 15:23:02,341 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'H!E' which goes past the file size; offset: 3558151796, size: 1814611822, font size: 4096 
+21 5ÔÂ 2025 15:23:02,341 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '???7' which goes past the file size; offset: 2603478851, size: 3725327361, font size: 4096 
+21 5ÔÂ 2025 15:23:02,341 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?)x' which goes past the file size; offset: 559233859, size: 3658803480, font size: 4096 
+21 5ÔÂ 2025 15:23:02,341 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?{?7' which goes past the file size; offset: 1862886719, size: 2668449853, font size: 4096 
+21 5ÔÂ 2025 15:23:02,342 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '_?'' which goes past the file size; offset: 538057846, size: 2709475851, font size: 4096 
+21 5ÔÂ 2025 15:23:02,342 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'mU?=' which goes past the file size; offset: 3792819043, size: 155777395, font size: 4096 
+21 5ÔÂ 2025 15:23:02,342 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'cr?' which goes past the file size; offset: 4167450658, size: 847032079, font size: 4096 
+21 5ÔÂ 2025 15:23:02,342 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '.c)' which goes past the file size; offset: 3126582614, size: 756990720, font size: 4096 
+21 5ÔÂ 2025 15:23:02,343 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '`G? ' which goes past the file size; offset: 321350193, size: 1025633125, font size: 4096 
+21 5ÔÂ 2025 15:23:02,343 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '^Y? ' which goes past the file size; offset: 37579130, size: 1547615580, font size: 4096 
+21 5ÔÂ 2025 15:23:02,343 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨¢f?l' which goes past the file size; offset: 443523377, size: 3021485332, font size: 4096 
+21 5ÔÂ 2025 15:23:02,343 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'v?D' which goes past the file size; offset: 56466492, size: 657601135, font size: 4096 
+21 5ÔÂ 2025 15:23:02,343 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??Z' which goes past the file size; offset: 4130613541, size: 3358587190, font size: 4096 
+21 5ÔÂ 2025 15:23:02,344 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '/B_<' which goes past the file size; offset: 1162140263, size: 1601089629, font size: 4096 
+21 5ÔÂ 2025 15:23:02,344 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'C' which goes past the file size; offset: 3495397202, size: 3915834448, font size: 4096 
+21 5ÔÂ 2025 15:23:02,344 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '??%H' which goes past the file size; offset: 2439826034, size: 358810716, font size: 4096 
+21 5ÔÂ 2025 15:23:02,344 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?[`' which goes past the file size; offset: 288391188, size: 3355567130, font size: 4096 
+21 5ÔÂ 2025 15:23:02,344 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?ZA0' which goes past the file size; offset: 4048571984, size: 2584427132, font size: 4096 
+21 5ÔÂ 2025 15:23:02,344 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?<F' which goes past the file size; offset: 1646205482, size: 1461134420, font size: 4096 
+21 5ÔÂ 2025 15:23:02,344 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'JIu' which goes past the file size; offset: 2910686783, size: 2139005310, font size: 4096 
+21 5ÔÂ 2025 15:23:02,345 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'G'eR' which goes past the file size; offset: 2887817222, size: 3340833554, font size: 4096 
+21 5ÔÂ 2025 15:23:02,345 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?A ' which goes past the file size; offset: 1327557659, size: 2524824609, font size: 4096 
+21 5ÔÂ 2025 15:23:02,345 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?E?$' which goes past the file size; offset: 408453409, size: 2282642960, font size: 4096 
+21 5ÔÂ 2025 15:23:02,345 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '
+?' which goes past the file size; offset: 2669088813, size: 3993334130, font size: 4096 
+21 5ÔÂ 2025 15:23:02,345 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '???x' which goes past the file size; offset: 253991238, size: 1280241664, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?ivS' which goes past the file size; offset: 2802048374, size: 3663705115, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡è?' which goes past the file size; offset: 975758693, size: 73791579, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?f' which goes past the file size; offset: 2941614345, size: 3928939574, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table ',F¨´2' which goes past the file size; offset: 2187831907, size: 3766084143, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?' which goes past the file size; offset: 1096829265, size: 3993072667, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'ph!' which goes past the file size; offset: 256535912, size: 1365728369, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'A?B' which goes past the file size; offset: 627568998, size: 4183968303, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '1??' which goes past the file size; offset: 1278407472, size: 172708171, font size: 4096 
+21 5ÔÂ 2025 15:23:02,346 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?l?7' which goes past the file size; offset: 1680824159, size: 1533504054, font size: 4096 
+21 5ÔÂ 2025 15:23:02,348 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡ÁG?;' which goes past the file size; offset: 3758834270, size: 4178964590, font size: 4096 
+21 5ÔÂ 2025 15:23:02,348 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?}?v' which goes past the file size; offset: 1208983323, size: 2772378403, font size: 4096 
+21 5ÔÂ 2025 15:23:02,348 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?I?a' which goes past the file size; offset: 3059457349, size: 1377609059, font size: 4096 
+21 5ÔÂ 2025 15:23:02,348 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'HQ¡¤' which goes past the file size; offset: 1501441817, size: 2823225446, font size: 4096 
+21 5ÔÂ 2025 15:23:02,348 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?Y¨°n' which goes past the file size; offset: 4115630912, size: 2217025111, font size: 4096 
+21 5ÔÂ 2025 15:23:02,349 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?R?X' which goes past the file size; offset: 1629858881, size: 1964429117, font size: 4096 
+21 5ÔÂ 2025 15:23:02,349 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?.	`' which goes past the file size; offset: 139513980, size: 1081886573, font size: 4096 
+21 5ÔÂ 2025 15:23:02,349 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '
+j' which goes past the file size; offset: 1768880698, size: 1561238791, font size: 4096 
+21 5ÔÂ 2025 15:23:02,349 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?%?B' which goes past the file size; offset: 2517397836, size: 2021543184, font size: 4096 
+21 5ÔÂ 2025 15:23:02,349 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '-yB' which goes past the file size; offset: 3088334647, size: 4050433550, font size: 4096 
+21 5ÔÂ 2025 15:23:02,349 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?P?' which goes past the file size; offset: 2316284789, size: 1563270464, font size: 4096 
+21 5ÔÂ 2025 15:23:02,350 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '.,.' which goes past the file size; offset: 3644121156, size: 56338524, font size: 4096 
+21 5ÔÂ 2025 15:23:02,350 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '}¨¤C' which goes past the file size; offset: 189537283, size: 1597891684, font size: 4096 
+21 5ÔÂ 2025 15:23:02,350 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'UM0' which goes past the file size; offset: 2505867550, size: 2726051849, font size: 4096 
+21 5ÔÂ 2025 15:23:02,350 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'Rv?' which goes past the file size; offset: 2200858387, size: 807800858, font size: 4096 
+21 5ÔÂ 2025 15:23:02,350 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¡Â'?7' which goes past the file size; offset: 4095346811, size: 553749258, font size: 4096 
+21 5ÔÂ 2025 15:23:02,350 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '/' which goes past the file size; offset: 2603397929, size: 3224521987, font size: 4096 
+21 5ÔÂ 2025 15:23:02,351 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'uH?&' which goes past the file size; offset: 1074829917, size: 255055364, font size: 4096 
+21 5ÔÂ 2025 15:23:02,351 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '¨¹8J ' which goes past the file size; offset: 1028991869, size: 1091635482, font size: 4096 
+21 5ÔÂ 2025 15:23:02,351 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?6¡¤j' which goes past the file size; offset: 25074533, size: 1057533210, font size: 4096 
+21 5ÔÂ 2025 15:23:02,351 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table 'C ' which goes past the file size; offset: 2422234697, size: 610529149, font size: 4096 
+21 5ÔÂ 2025 15:23:02,351 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '*?h' which goes past the file size; offset: 5746974, size: 3241270844, font size: 4096 
+21 5ÔÂ 2025 15:23:02,352 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?? ' which goes past the file size; offset: 4265545758, size: 424537668, font size: 4096 
+21 5ÔÂ 2025 15:23:02,352 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?li.' which goes past the file size; offset: 1196408912, size: 3844830842, font size: 4096 
+21 5ÔÂ 2025 15:23:02,352 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?2^' which goes past the file size; offset: 808339247, size: 302461515, font size: 4096 
+21 5ÔÂ 2025 15:23:02,352 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '<FA' which goes past the file size; offset: 527232591, size: 1045348944, font size: 4096 
+21 5ÔÂ 2025 15:23:02,352 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '? z' which goes past the file size; offset: 255804965, size: 1064052739, font size: 4096 
+21 5ÔÂ 2025 15:23:02,352 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '?0?n' which goes past the file size; offset: 253009996, size: 2623229563, font size: 4096 
+21 5ÔÂ 2025 15:23:02,353 WARN org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:151) Skip table '6¡¤' which goes past the file size; offset: 3295646572, size: 302743109, font size: 4096 
+21 5ÔÂ 2025 15:23:02,451 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:182) File content extracted in 396ms: c2f9259d-43a2-4a00-9c5c-1961643ed46f 
+21 5ÔÂ 2025 15:23:02,569 INFO com.sismics.docs.core.util.FileUtil.endProcessingFile(FileUtil.java:235) Processing ended for file: c2f9259d-43a2-4a00-9c5c-1961643ed46f 
+21 5ÔÂ 2025 15:23:03,607 INFO com.sismics.docs.core.listener.async.DocumentUpdatedAsyncListener.on(DocumentUpdatedAsyncListener.java:39) Document updated event: DocumentUpdatedAsyncEvent{documentId=ef5b963b-8da4-4682-9660-47dc6ffc4809} 
+21 5ÔÂ 2025 15:23:03,607 INFO com.sismics.docs.core.listener.async.FileDeletedAsyncListener.on(FileDeletedAsyncListener.java:36) File deleted event: FileDeletedAsyncEvent{fileId=06253a07-80c0-4075-b0b5-5f1c2c5b546c, fileSize=11788800} 
+21 5ÔÂ 2025 15:23:17,155 INFO com.sismics.docs.core.listener.async.DocumentUpdatedAsyncListener.on(DocumentUpdatedAsyncListener.java:39) Document updated event: DocumentUpdatedAsyncEvent{documentId=ef5b963b-8da4-4682-9660-47dc6ffc4809} 
+21 5ÔÂ 2025 16:14:24,057 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+21 5ÔÂ 2025 16:14:24,058 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
