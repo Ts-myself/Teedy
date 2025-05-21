@@ -7,8 +7,222 @@
         <!-- Page description -->
         <p class="text-muted">{{ 'settings.activity.description' | translate }}</p>
 
+        <!-- View toggle -->
+        <div class="btn-group mb-20">
+            <button class="btn" ng-class="{'btn-primary': !showGantt, 'btn-default': showGantt}"
+                ng-click="showGantt = false">
+                <span class="fas fa-list"></span> List View
+            </button>
+            <button class="btn" ng-class="{'btn-primary': showGantt, 'btn-default': !showGantt}"
+                ng-click="toggleGanttView()">
+                <span class="fas fa-chart-bar"></span> Activity Chart
+            </button>
+        </div>
+
+        <!-- Gantt Chart View -->
+        <div class="panel panel-default" ng-if="showGantt && !isLoading">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <h3 class="panel-title">User Activity Chart</h3>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <button class="btn btn-default btn-xs" ng-click="loadActivities()">
+                            <span class="fas fa-sync-alt"></span> {{ 'refresh' | translate }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="gantt-container">
+                    <!-- Time scale header -->
+                    <div class="gantt-timeline-header">
+                        <div class="gantt-timeline-labels">
+                            <span>{{ formatDate(timeRange.start) }}</span>
+                            <span class="pull-right">{{ formatDate(timeRange.end) }}</span>
+                        </div>
+                    </div>
+
+                    <!-- Y-axis label -->
+                    <div class="gantt-y-axis">
+                        <div class="gantt-y-label">Activity Level</div>
+                        <div class="gantt-y-markers">
+                            <div class="gantt-y-marker">High</div>
+                            <div class="gantt-y-marker" style="bottom: 50%">Medium</div>
+                            <div class="gantt-y-marker" style="bottom: 10px">Low</div>
+                        </div>
+                    </div>
+
+                    <!-- Legend -->
+                    <div class="gantt-legend">
+                        <div ng-repeat="user in ganttData" class="gantt-legend-item">
+                            <span class="gantt-legend-color" ng-style="{'background-color': user.color}"></span>
+                            <span class="gantt-legend-label">{{ user.name }}</span>
+                        </div>
+                    </div>
+
+                    <!-- Activity chart -->
+                    <div class="gantt-unified-timeline">
+                        <svg width="100%" height="300">
+                            <!-- Background grid -->
+                            <line x1="0" y1="275" x2="100%" y2="275" stroke="#eee" stroke-width="1"></line>
+                            <line x1="0" y1="200" x2="100%" y2="200" stroke="#eee" stroke-width="1"></line>
+                            <line x1="0" y1="125" x2="100%" y2="125" stroke="#eee" stroke-width="1"></line>
+                            <line x1="0" y1="50" x2="100%" y2="50" stroke="#eee" stroke-width="1"></line>
+
+                            <!-- User activity lines and points -->
+                            <g ng-repeat="user in ganttData">
+                                <!-- Activity connecting path with enhanced styling -->
+                                <path ng-attr-d="{{ generatePath(user.days) }}" ng-attr-stroke="{{ user.color }}"
+                                    stroke-width="2.5" stroke-opacity="0.7" fill="none" class="activity-path"></path>
+
+                                <!-- Activity points/circles -->
+                                <g ng-repeat="day in user.days">
+                                    <!-- Only show dots for days with activity -->
+                                    <circle ng-if="!day.isMissing || day.count > 0"
+                                        ng-attr-cx="{{ getItemPosition(day.date) + '%' }}"
+                                        ng-attr-cy="{{ getActivityHeight(day.count) }}"
+                                        ng-attr-r="{{ day.count > 0 ? (3 + (day.count / maxDailyActivity * 6)) : 2 }}"
+                                        ng-attr-fill="{{ user.color }}"
+                                        ng-attr-fill-opacity="{{ day.count > 0 ? 1 : 0.5 }}" stroke="#fff"
+                                        stroke-width="1.5" class="activity-point">
+                                        <title>{{ formatDayTooltip(day) }}</title>
+                                    </circle>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <!-- No data message -->
+                    <div ng-if="ganttData.length === 0" class="text-center p-20">
+                        <p>No activities available to display in the chart</p>
+                    </div>
+                </div>
+
+                <style>
+                    .mb-20 {
+                        margin-bottom: 20px;
+                    }
+
+                    .p-20 {
+                        padding: 20px;
+                    }
+
+                    .gantt-container {
+                        position: relative;
+                        margin-top: 20px;
+                    }
+
+                    .gantt-timeline-header {
+                        border-bottom: 1px solid #ddd;
+                        padding-bottom: 5px;
+                        margin-bottom: 10px;
+                    }
+
+                    .gantt-timeline-labels {
+                        font-size: 12px;
+                        color: #666;
+                        width: 100%;
+                    }
+
+                    .gantt-legend {
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-bottom: 15px;
+                        padding: 10px;
+                        background-color: #f9f9f9;
+                        border-radius: 4px;
+                    }
+
+                    .gantt-legend-item {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 15px;
+                        margin-bottom: 5px;
+                    }
+
+                    .gantt-legend-color {
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        margin-right: 5px;
+                    }
+
+                    .gantt-legend-label {
+                        font-size: 12px;
+                    }
+
+                    .gantt-y-axis {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 60px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        z-index: 1;
+                    }
+
+                    .gantt-y-label {
+                        transform: rotate(-90deg);
+                        font-weight: bold;
+                        font-size: 12px;
+                        position: absolute;
+                        top: 50%;
+                        left: -15px;
+                        white-space: nowrap;
+                    }
+
+                    .gantt-y-markers {
+                        position: relative;
+                        height: 300px;
+                        width: 100%;
+                    }
+
+                    .gantt-y-marker {
+                        position: absolute;
+                        right: 0;
+                        font-size: 10px;
+                        color: #666;
+                        bottom: 270px;
+                    }
+
+                    .gantt-unified-timeline {
+                        position: relative;
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
+                        background-color: #fff;
+                        height: 300px;
+                        margin-left: 60px;
+                        overflow-x: auto;
+                    }
+
+                    .activity-point {
+                        cursor: pointer;
+                        transition: r 0.2s ease, fill-opacity 0.2s ease;
+                    }
+
+                    .activity-point:hover {
+                        r: 8;
+                        fill-opacity: 0.8;
+                        filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.3));
+                    }
+
+                    .activity-path {
+                        transition: stroke-width 0.2s ease;
+                    }
+
+                    .activity-path:hover {
+                        stroke-width: 4;
+                    }
+                </style>
+            </div>
+        </div>
+
         <!-- Activity list -->
-        <div class="panel panel-default">
+        <div class="panel panel-default" ng-if="!showGantt || isLoading">
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-xs-6">
